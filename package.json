@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/WebMrYang/WebMrYang.github.io/issues"
   },
-  "homepage": "https://github.com/WebMrYang/WebMrYang.github.io#readme"
+  "homepage": "https://github.com/WebMrYang/WebMrYang.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.1"
+  }
 }
