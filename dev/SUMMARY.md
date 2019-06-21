@@ -24,10 +24,13 @@
 
         - [GitBook 建站](gitbook/Other-library/Markdown_Website/GitBook/README.md)
 
-            - [发布](gitbook/Other-library/Markdown_Website/GitBook/build.md)
-            - [GitBook 环境搭建](gitbook/Other-library/Markdown_Website/GitBook/init.md)
+            - [环境搭建](gitbook/Other-library/Markdown_Website/GitBook/init.md)
+
             - [插件](gitbook/Other-library/Markdown_Website/GitBook/plugins.md)
-            - [GitBook 开发问题记录](gitbook/Other-library/Markdown_Website/GitBook/question.md)
+
+            - [发布](gitbook/Other-library/Markdown_Website/GitBook/build.md)
+            
+            - [开发问题记录](gitbook/Other-library/Markdown_Website/GitBook/question.md)
             
         - [GitHub 发布](gitbook/Other-library/Markdown_Website/GitHub/README.md)
 
