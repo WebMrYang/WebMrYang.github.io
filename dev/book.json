@@ -14,7 +14,7 @@
         "search-pro",
         "-search",
         "-lunr",
-        "expandable-chapters",
+        "chapter-fold",
         "splitter",
         "-sharing",
         "github-buttons",
@@ -23,7 +23,8 @@
         "baidu-tongji",
         "anchor-navigation-ex",
         "simple-page-toc",
-        "livereload"
+        "livereload",
+        "sectionx"
     ],
     "pluginsConfig": {
         "github-buttons": {
