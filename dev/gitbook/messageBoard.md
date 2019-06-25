@@ -9,7 +9,7 @@
 var gitalk = new Gitalk({
     "clientID": "8c2f22bd64d1ea012ac5",
     "clientSecret": "992cdea444e1503ceac91bfd74907b37e590a159",
-    "repo": "webmryang.github.io/",
+    "repo": "webmryang.github.io",
     "owner": "WebMrYang",
     "admin": ["WebMrYang"],
     "id": location.pathname,      
