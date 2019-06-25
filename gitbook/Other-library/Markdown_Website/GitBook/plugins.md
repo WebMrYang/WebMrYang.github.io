@@ -621,11 +621,11 @@ gitalk 利用 github 的开发者接口授权,将讨论区的 issue 变成评论
     <div id="gitalk-container"></div>
     <script>
     var gitalk = new Gitalk({
-        "clientID": "需要补充的 clientID",
-        "clientSecret": "需要补充的 clientSecret",
-        "repo": "document-library",
-        "owner": "LiangJunrong",
-        "admin": ["LiangJunrong"],
+        "clientID": "8c2f22bd64d1ea012ac5",
+        "clientSecret": "992cdea444e1503ceac91bfd74907b37e590a159",
+        "repo": "webmryang.github.io",
+        "owner": "WebMrYang",
+        "admin": ["WebMrYang"],
         "id": location.pathname,      
         "distractionFreeMode": false  
     });

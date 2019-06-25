@@ -75,9 +75,9 @@ GitBook version: 3.2.3
 ### 3.1 常用命令
 
 * 安装 GitBook：npm i gitbook-cli -g
-* 初始化 GitBook 项目：gitbook init
+* 初始化 GitBook 项目：gitbook init   
 * 安装 GitBook 依赖：gitbook install
-* 开启 GitBook 服务：gitbook serve
+* 开启 GitBook 服务：gitbook serve  //gitbook serve --port 2333  指定端口
 * 打包 GitBook 项目：gitbook build
 * GitBook 命令行查看：gitbook -help
 * GitBook 版本查看：gitbook -V
