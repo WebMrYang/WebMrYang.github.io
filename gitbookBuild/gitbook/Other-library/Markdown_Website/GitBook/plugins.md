@@ -376,7 +376,7 @@ Gitbook默认自带有5个插件：
 
 ### 2.10  theme-comscore 为Table添加样式
 
-[GitHub地址](https://github.com/willin/gitbook-plugin-donate)<br/>
+[npm地址](https://www.npmjs.com/package/gitbook-plugin-theme-comscore)<br/>
 在book.json中添加以下内容。然后执行`gitbook install`，或者使用NPM安装`npm install gitbook-plugin-theme-comscore`，也可以从源码GitHub地址中下载，放到node_modules文件夹里（GitHub地址在进入插件地址右侧的GitHub链接）
 
 ```
@@ -396,7 +396,7 @@ Gitbook默认自带有5个插件：
 
 prism：为 GitBook 的 Code 添加更好看的样式，使用它的时候记得屏蔽 GitBook 默认的 highlight 插件，即通过 （-highlight 表示，下面出现 - 的插件也一样）<br/>
 
-[GitHub地址](https://github.com/willin/gitbook-plugin-donate)<br/>
+[npm地址](https://www.npmjs.com/package/gitbook-plugin-prism)<br/>
 在book.json中添加以下内容。然后执行`gitbook install`，或者使用NPM安装`npm install gitbook-plugin-prism`，也可以从源码GitHub地址中下载，放到node_modules文件夹里（GitHub地址在进入插件地址右侧的GitHub链接）
 
 ```
@@ -419,32 +419,12 @@ prism：为 GitBook 的 Code 添加更好看的样式，使用它的时候记得
 ```
 
 
-### 2.12 expandable-chapters
 
-expandable-chapters：由于侧边栏标题是默认全部展开的，所以这个插件会让它具有展开收缩功能。<br/>
-
-[GitHub地址](https://github.com/willin/gitbook-plugin-donate)<br/>
-在book.json中添加以下内容。然后执行`gitbook install`，或者使用NPM安装`npm install gitbook-plugin-expandable-chapters`，也可以从源码GitHub地址中下载，放到node_modules文件夹里（GitHub地址在进入插件地址右侧的GitHub链接）
-
-```
-    {
-        "plugins": [
-            "expandable-chapters"
-        ],
-    }
-```
-效果如下图所示：
-
-![](../../../image/gitbook_expandable-chapters.png)
-
-
-
-
-### 2.13 anchor-navigation-ex 生成菜单。
+### 2.12 anchor-navigation-ex 生成菜单。
 
 expandable-chapters：自动生成菜单,并跳转顶部<br/>
 
-[GitHub地址](https://github.com/willin/gitbook-plugin-donate)<br/>
+[GitHub地址](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex/blob/master/doc/config.md)<br/>
 在book.json中添加以下内容。然后执行`gitbook install`，或者使用NPM安装`npm install gitbook-plugin-anchor-navigation-ex`，也可以从源码GitHub地址中下载，放到node_modules文件夹里（GitHub地址在进入插件地址右侧的GitHub链接）
 
 ```
@@ -467,7 +447,7 @@ expandable-chapters：自动生成菜单,并跳转顶部<br/>
 
 
 
-### 2.14  sectionx 将页面分块显示。
+### 2.13  sectionx 将页面分块显示。
 
 用于将页面分成多个部分，并添加按钮以允许读者控制每个部分的可见性。<br/>
 
@@ -514,4 +494,175 @@ example：<br>
 <!--sec data-title="模块2" data-id="section2" data-show=true ces-->
 内容部分2
 <!--endsec-->
+
+
+
+
+### 2.14  baidu-tongji 添加百度统计。
+
+
+[npm地址](https://www.npmjs.com/package/gitbook-plugin-baidu-tongji)<br/>
+在book.json中添加以下内容。然后执行`gitbook install`，或者使用NPM安装`npm install gitbook-plugin-baidu-tongji`，也可以从源码GitHub地址中下载，放到node_modules文件夹里（GitHub地址在进入插件地址右侧的GitHub链接）
+
+```
+    {
+       "plugins": [
+            "baidu-tongji"
+        ],
+        "pluginsConfig": {
+            "baidu-tongji": {
+                "token": "f3f331c21843f7b950e103f51fbabc60"
+            }
+        }
+    }
+```
+
+
+### 2.15  favicon 更改网站的 favicon.ico。
+
+
+[npm地址](https://www.npmjs.com/package/gitbook-plugin-baidu-tongji)<br/>
+在book.json中添加以下内容。然后执行`gitbook install`，或者使用NPM安装`npm install gitbook-plugin-favicon`，也可以从源码GitHub地址中下载，放到node_modules文件夹里（GitHub地址在进入插件地址右侧的GitHub链接）
+
+```
+    {
+       "plugins": [
+            "favicon"
+        ],
+        "pluginsConfig": {
+            "favicon": {
+                "shortcut": "assets/images/favicon.ico",//首先，shortcut通常可以被所有可以显示favicon的浏览器读取。
+                "bookmark": "assets/images/favicon.ico",//在收藏夹中显示自己的图标
+                "appleTouch": "assets/images/apple-touch-icon.png",//是一个类似网站favicon的图标文件，用来在iphone和iPad上创建快捷键时使用
+                "appleTouchMore": {
+                    "120x120": "assets/images/apple-touch-icon-120x120.png",
+                    "180x180": "assets/images/apple-touch-icon-180x180.png"
+                }
+            }
+        }
+    }
+```
+
+
+
+
+### 2.16  待做项☑。
+
+添加 Todo 功能。默认的 checkbox 会向右偏移 2em，如果不希望偏移，可以在 ```website.css``` 里加上下面的代码:
+
+
+[GitHub地址](https://github.com/ly-tools/gitbook-plugin-todo)<br/>
+在book.json中添加以下内容。然后执行`gitbook install`，或者使用NPM安装`npm install gitbook-plugin-todo`，也可以从源码GitHub地址中下载，放到node_modules文件夹里（GitHub地址在进入插件地址右侧的GitHub链接）
+
+```
+    {
+       "plugins": [
+            "todo"
+        ]
+    }
+```
+
+使用示例：
+
+```
+    *   [ ]  write some articles
+    *   [x]  drink a cup of tea 
+```
+
+*   [ ]  write some articles
+
+*   [x]  drink a cup of tea 
+
+
+
+### 2.17 Codeblock显示所包含文件的内容。
+
+使用代码块的格式显示所包含文件的内容. 该文件必须存在。插件提供了一些配置，可以区插件官网查看。如果同时使用 ace 和本插件，本插件要在 ace 插件前面加载。
+
+[CodeblockNPM地址](https://www.npmjs.com/package/gitbook-plugin-include-codeblock)<br/>
+[aceNPM地址](https://www.npmjs.com/package/gitbook-plugin-acek)<br/>
+在book.json中添加以下内容。然后执行`gitbook install`，或者使用NPM安装`npm install gitbook-plugin-include-codeblock gitbook-plugin-ace`，也可以从源码GitHub地址中下载，放到node_modules文件夹里（GitHub地址在进入插件地址右侧的GitHub链接）
+
+```
+    {
+       "plugins": [
+            "include-codeblock",
+            'ace'
+        ],
+        "pluginsConfig": {
+            "include-codeblock": {
+                "template": "ace",
+                "unindent": "true",
+                "theme": "monokai"
+            }
+        }
+    }
+```
+
+使用示例：
+
+```
+    Example of code \[import\](./test.js)
+```
+
+Example of code [import](./test.js)
+
+
+
+### 2.18 gitalk 评论插件。
+
+gitalk 利用 github 的开发者接口授权,将讨论区的 issue 变成评论区,和 github 结合的如此紧密,适合用源码托管到 github 这类情况.<br/>
+
+我们在需要评论的页面中加入下面代码
+
+```
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <div id="gitalk-container"></div>
+    <script>
+    var gitalk = new Gitalk({
+        "clientID": "需要补充的 clientID",
+        "clientSecret": "需要补充的 clientSecret",
+        "repo": "document-library",
+        "owner": "LiangJunrong",
+        "admin": ["LiangJunrong"],
+        "id": location.pathname,      
+        "distractionFreeMode": false  
+    });
+    gitalk.render("gitalk-container");
+    </script>
+
+```
+字段意思：
+    1. `clientID` ：GitHub 开发者设置，客户端连接标识。
+    2. `clientSecret`：GitHub 开发者设置，客户端秘钥。
+    3. `repo`：GitHub 仓库名，我们的就是 document-library 啦。
+    4. `owner`：GitHub 仓库所有者，就是我 GitHub 账户：`LiangJunrong`。
+    5. `admin`：GitHub 仓库管理者，还是我的 GitHub 账户：`LiangJunrong`。（支持数组，多个管理者）
+    6. `id`：页面的唯一标识，默认值: `location.href`
+    7. `distractionFreeMode`：类似 Facebook 评论框的全屏遮罩效果,默认值: `false`
+    [官方配置](https://github.com/gitalk/gitalk#install)<br/>
+
+[GitHub开发授权应用](https://github.com/settings/applications/new)
+![](../../../image/gitbook_gitalk.png)
+
+
+
+
+
+## 3 插件  - 参考文献
+
+1. [GitBook 搭建](https://liangjunrong.github.io/other-library/Markdown-Websites/GitBook/GitBook-study.html#%E4%BA%94-gitbook-%E6%89%93%E5%8C%85%E9%83%A8%E7%BD%B2)
+
+2. [GitBook插件整理](https://www.jianshu.com/p/427b8bb066e6)
+
+3. [gitbook 入门教程之实用插件](https://www.jianshu.com/p/567df1c904f6)
+
+
+
+
+
+
+
+
 

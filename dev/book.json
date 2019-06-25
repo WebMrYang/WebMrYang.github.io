@@ -24,9 +24,17 @@
         "anchor-navigation-ex",
         "simple-page-toc",
         "livereload",
-        "sectionx"
+        "sectionx",
+        "todo",
+        "include-codeblock",
+        "ace"
     ],
     "pluginsConfig": {
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "theme": "monokai"
+        },
         "github-buttons": {
             "buttons": [
                 {
@@ -66,7 +74,7 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "baidu-tongji": {
-            "token": "55e7dfe47f4dc1c018d4042fdfa62565"
+            "token": "f3f331c21843f7b950e103f51fbabc60"
         },
         "anchor-navigation-ex": {
             "showLevel": false

@@ -1,24 +1,22 @@
 # 留言板
 
-换一台电脑打开GitBook项目居然运行不了，gitbook serve和gitbook build都报错。
+使用gitalk来进行留言
 
-Error: ENOENT: no such file or directory, stat ‘C:***demo_book\_book\gitbook\gitbook-plugin-fontsettings\fontsettings.js’
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+var gitalk = new Gitalk({
+    "clientID": "8c2f22bd64d1ea012ac5",
+    "clientSecret": "992cdea444e1503ceac91bfd74907b37e590a159",
+    "repo": "webmryang.github.io/",
+    "owner": "WebMrYang",
+    "admin": ["WebMrYang"],
+    "id": location.pathname,      
+    "distractionFreeMode": false  
+});
+gitalk.render("gitalk-container");
+</script>
 
-原来是一个Bug（Vesion：3.2.3）。
-
-https://github.com/GitbookIO/gitbook/issues/1309
-
-解决办法如下。
-
-用户目录下找到以下文件。
-<user>\.gitbook\versions\3.2.3\lib\output\website\copyPluginAssets.js
-
-Replace all
-confirm: true
-with
-confirm: false
---------------------- 
-
-gitbook fetch 2.6.7
 
 
