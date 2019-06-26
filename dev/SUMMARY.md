@@ -6,17 +6,17 @@
 
 - [留言板](gitbook/messageBoard.md)
 
-- [CSS-library](gitbook/CSS-library/README.md)
+- [CSS](gitbook/CSS-library/README.md)
 
-- [JavaScript-library](gitbook/JavaScript-library/README.md)
+- [JavaScript](gitbook/JavaScript-library/README.md)
 
-- [Regular-library](gitbook/Regular-library/README.md)
+- [Regular](gitbook/Regular-library/README.md)
 
-- [Node-library](gitbook/Node-library/README.md)
+- [Node](gitbook/Node-library/README.md)
 
-- [Mysql-library](gitbook/Mysql-library/README.md)
+- [Mysql](gitbook/Mysql-library/README.md)
 
-- [Other-library](gitbook/Other-library/README.md)
+- [其他资料库](gitbook/Other-library/README.md)
 
     - [Markdown_Website](gitbook/Other-library/Markdown_Website/README.md)
 
@@ -33,6 +33,8 @@
             - [开发问题记录](gitbook/Other-library/Markdown_Website/GitBook/question.md)
             
         - [GitHub 发布](gitbook/Other-library/Markdown_Website/GitHub/README.md)
+    
+    - [SSH](gitbook/Other-library/SSH/README.md)
 
        
 

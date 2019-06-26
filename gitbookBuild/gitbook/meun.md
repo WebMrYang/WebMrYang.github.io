@@ -1,24 +1,43 @@
 # 文档库目录
 
-换一台电脑打开GitBook项目居然运行不了，gitbook serve和gitbook build都报错。
+- [首页](../README.md)
 
-Error: ENOENT: no such file or directory, stat ‘C:***demo_book\_book\gitbook\gitbook-plugin-fontsettings\fontsettings.js’
+- [更新记录](../gitbook/updateRecord.md)
 
-原来是一个Bug（Vesion：3.2.3）。
+- [文档库目录](../gitbook/meun.md)
 
-https://github.com/GitbookIO/gitbook/issues/1309
+- [留言板](../gitbook/messageBoard.md)
 
-解决办法如下。
+- [CSS](../gitbook/CSS-library/README.md)
 
-用户目录下找到以下文件。
-<user>\.gitbook\versions\3.2.3\lib\output\website\copyPluginAssets.js
+- [JavaScript](../gitbook/JavaScript-library/README.md)
 
-Replace all
-confirm: true
-with
-confirm: false
---------------------- 
+- [Regular](../gitbook/Regular-library/README.md)
 
-gitbook fetch 2.6.7
+- [Node](../gitbook/Node-library/README.md)
+
+- [Mysql](../gitbook/Mysql-library/README.md)
+
+- [其他资料库](../gitbook/Other-library/README.md)
+
+    - [Markdown_Website](../gitbook/Other-library/Markdown_Website/README.md)
+
+        - [Markdown](../gitbook/Other-library/Markdown_Website/Markdown/README.md)
+
+        - [GitBook 建站](../gitbook/Other-library/Markdown_Website/GitBook/README.md)
+
+            - [环境搭建](../gitbook/Other-library/Markdown_Website/GitBook/init.md)
+
+            - [插件](../gitbook/Other-library/Markdown_Website/GitBook/plugins.md)
+
+            - [发布](../gitbook/Other-library/Markdown_Website/GitBook/build.md)
+            
+            - [开发问题记录](../gitbook/Other-library/Markdown_Website/GitBook/question.md)
+            
+        - [GitHub 发布](../gitbook/Other-library/Markdown_Website/GitHub/README.md)
+    
+    - [SSH](../gitbook/Other-library/SSH/README.md)
+
+       
 
 
