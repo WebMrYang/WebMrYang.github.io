@@ -1,0 +1,625 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>常用正则 · webMrYang的文档库</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="杨">
+        
+        
+    
+    <link rel="stylesheet" href="../style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../gitbook-configure.css">
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../Node-library/" />
+    
+    
+    <link rel="prev" href="methods.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"webMrYang","repo":"document-library","type":"star","count":true,"size":"small"},{"user":"webMrYang","width":"160","type":"follow","count":true,"size":"small"}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../updateRecord.html">
+            
+                <a href="../updateRecord.html">
+            
+                    
+                    更新记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../meun.html">
+            
+                <a href="../meun.html">
+            
+                    
+                    文档库目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../messageBoard.html">
+            
+                <a href="../messageBoard.html">
+            
+                    
+                    留言板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../CSS-library/">
+            
+                <a href="../CSS-library/">
+            
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../JavaScript-library/">
+            
+                <a href="../JavaScript-library/">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Regular
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="composition.html">
+            
+                <a href="composition.html">
+            
+                    
+                    正则组成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="methods.html">
+            
+                <a href="methods.html">
+            
+                    
+                    正则方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7.3" data-path="used.html">
+            
+                <a href="used.html">
+            
+                    
+                    常用正则
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../Node-library/">
+            
+                <a href="../Node-library/">
+            
+                    
+                    Node
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Mysql-library/">
+            
+                <a href="../Mysql-library/">
+            
+                    
+                    Mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../Other-library/">
+            
+                <a href="../Other-library/">
+            
+                    
+                    其他资料库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../Other-library/Markdown_Website/">
+            
+                <a href="../Other-library/Markdown_Website/">
+            
+                    
+                    Markdown_Website
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1.1" data-path="../Other-library/Markdown_Website/Markdown/">
+            
+                <a href="../Other-library/Markdown_Website/Markdown/">
+            
+                    
+                    Markdown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.2" data-path="../Other-library/Markdown_Website/GitBook/">
+            
+                <a href="../Other-library/Markdown_Website/GitBook/">
+            
+                    
+                    GitBook 建站
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1.2.1" data-path="../Other-library/Markdown_Website/GitBook/init.html">
+            
+                <a href="../Other-library/Markdown_Website/GitBook/init.html">
+            
+                    
+                    环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.2.2" data-path="../Other-library/Markdown_Website/GitBook/plugins.html">
+            
+                <a href="../Other-library/Markdown_Website/GitBook/plugins.html">
+            
+                    
+                    插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.2.3" data-path="../Other-library/Markdown_Website/GitBook/build.html">
+            
+                <a href="../Other-library/Markdown_Website/GitBook/build.html">
+            
+                    
+                    发布
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.2.4" data-path="../Other-library/Markdown_Website/GitBook/question.html">
+            
+                <a href="../Other-library/Markdown_Website/GitBook/question.html">
+            
+                    
+                    开发问题记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.3" data-path="../Other-library/Markdown_Website/GitHub/">
+            
+                <a href="../Other-library/Markdown_Website/GitHub/">
+            
+                    
+                    GitHub 发布
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../Other-library/SSH/">
+            
+                <a href="../Other-library/SSH/">
+            
+                    
+                    SSH
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >常用正则</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x5E38;&#x7528;&#x6B63;&#x5219;&#xFF1A;"><b></b>&#x5E38;&#x7528;&#x6B63;&#x5219;&#xFF1A;</a></li></ul></div><a href="#&#x5E38;&#x7528;&#x6B63;&#x5219;&#xFF1A;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x5E38;&#x7528;&#x6B63;&#x5219;&#xFF1A;"><a name="&#x5E38;&#x7528;&#x6B63;&#x5219;&#xFF1A;" class="anchor-navigation-ex-anchor" href="#&#x5E38;&#x7528;&#x6B63;&#x5219;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5E38;&#x7528;&#x6B63;&#x5219;&#xFF1A;</h1>
+<p><a href="https://regexper.com/" target="_blank">&#x67E5;&#x770B;&#x6B63;&#x5219;&#x8FD0;&#x884C;&#x60C5;&#x51B5;</a></p>
+<ol>
+<li>2 &#x5230; 9 &#x4F4D;&#x4E2D;&#x6587;&#x6635;&#x79F0;&#xFF1A;<code>^[\u4e00-\u9fa5]{2,9}$</code></li>
+<li>&#x53EA;&#x80FD;&#x662F;&#x5B57;&#x6BCD;&#x3001;&#x6570;&#x5B57;&#x548C;&#x4E0B;&#x5212;&#x7EBF;&#xFF0C;&#x957F;&#x5EA6;&#x4E0D;&#x9650;&#x5236;&#x4E00;&#x5230;&#x591A;&#xFF1A;<code>^\w+$</code></li>
+<li>&#x5141;&#x8BB8; &#x5C0F;&#x5199;&#x5B57;&#x6BCD; a-z&#x3001;&#x5927;&#x5199;&#x5B57;&#x6BCD; A-Z&#x3001;&#x6570;&#x5B57; 0-9&#x3001;&#x4E0B;&#x5212;&#x7EBF; <em>&#x3001; &#x8FDE;&#x63A5;&#x7B26; -&#xFF0C;&#x4E14;&#x957F;&#x5EA6;&#x5728; 6-18 &#x4F4D;&#x6570;&#xFF1A;`/^[a-zA-Z0-9</em>-]{6,18}$/`</li>
+<li>&#x5FC5;&#x987B;&#x5305;&#x542B;&#x6570;&#x5B57;+&#x5C0F;&#x5199;&#x5B57;&#x6BCD;+&#x5927;&#x5199;&#x5B57;&#x6BCD;&#x7684;&#x5BC6;&#x7801;&#xFF0C;&#x4E14;&#x957F;&#x5EA6;&#x5728;8-10&#x4F4D;&#x4E4B;&#x95F4;&#xFF1A;<code>^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}$</code></li>
+<li>&#x9A8C;&#x8BC1; Email&#x5141;&#x8BB8;&#x6709;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x7B26;&#x5408; [A-Za-z0-9] &#x4E4B;&#x540E;&#x53EF;&#x4EE5;&#x4E3A; [A-Za-z0-9-+.] + @ + &#x5141;&#x8BB8;&#x6709;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x7B26;&#x5408; [A-Za-z0-9] &#x4E4B;&#x540E;&#x53EF;&#x4EE5;&#x4E3A; [A-Za-z0-9-.] + . + &#x5141;&#x8BB8;&#x6709;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x7B26;&#x5408; [A-Za-z0-9] &#x4E4B;&#x540E;&#x53EF;&#x4EE5;&#x6709; [A-Za-z0-9-.] &#x7684;&#x90AE;&#x7BB1;&#xFF1A;<code>^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$</code></li>
+<li>&#x9A8C;&#x8BC1;&#x8EAB;&#x4EFD;&#x8BC1;<ul>
+<li>18 &#x4F4D;&#x8EAB;&#x4EFD;&#x8BC1;&#x53F7;&#xFF0C;&#x5C3E;&#x6570;&#x662F;&#x6570;&#x5B57;&#x6216;&#x8005;&#x5B57;&#x6BCD; X&#xFF1A;<code>^(\d{6})(\d{4})(\d{2})(\d{2})(\d{3})([0-9]|X)$</code></li>
+<li>15 &#x6216;&#x8005; 18 &#x4F4D;&#x8EAB;&#x4EFD;&#x8BC1;&#x53F7;&#xFF0C;&#x5C3E;&#x6570;&#x53EF;&#x4EE5;&#x662F;&#x6570;&#x5B57;&#x53CA; X &#x6216;&#x8005; x&#xFF1A;<code>(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)</code></li>
+</ul>
+</li>
+<li>&#x9A8C;&#x8BC1;&#x624B;&#x673A;&#x53F7;<ul>
+<li>&#x4EE5; 1 &#x5F00;&#x5934;&#xFF0C;&#x7B2C;&#x4E8C;&#x4F4D;&#x6570;&#x662F; 3/4/5/7/8 &#x7684; 11 &#x4F4D;&#x624B;&#x673A;&#x53F7;&#x7801;&#xFF1A;<code>^1[3,4,5,7,8,9]\d{9}$</code></li>
+<li>&#x79FB;&#x52A8;&#x53F7;&#x7801;&#xFF1A;<code>^134[0-8]\d{7}$|^(?:13[5-9]|147|15[0-27-9]|178|1703|1705|1706|18[2-478])\d{7,8}$</code></li>
+<li>&#x7535;&#x4FE1;&#x53F7;&#x7801;&#xFF1A;<code>^(?:133|153|1700|1701|1702|177|173|18[019])\d{7,8}$</code></li>
+<li>&#x8054;&#x901A;&#x53F7;&#x7801;&#xFF1A;<code>^(?:13[0-2]|145|15[56]|176|1704|1707|1708|1709|171|18[56])\d{7,8}|$</code> </li>
+</ul>
+</li>
+</ol>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; webMrYang.top 2019 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2019-06-28 17:51:10
+</span></footer></body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="methods.html" class="navigation navigation-prev " aria-label="Previous page: 正则方法">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../Node-library/" class="navigation navigation-next " aria-label="Next page: Node">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"常用正则","level":"1.7.3","depth":2,"next":{"title":"Node","level":"1.8","depth":1,"path":"gitbook/Node-library/README.md","ref":"gitbook/Node-library/README.md","articles":[]},"previous":{"title":"正则方法","level":"1.7.2","depth":2,"path":"gitbook/Regular-library/methods.md","ref":"gitbook/Regular-library/methods.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","prism","-highlight","copy-code-button","search-pro","-search","-lunr","expandable-chapters","splitter","-sharing","github-buttons","donate","tbfed-pagefooter","baidu-tongji","anchor-navigation-ex","simple-page-toc","livereload","sectionx","todo","include-codeblock","ace","livereload"],"styles":{"website":"./gitbook/gitbook-configure.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy webMrYang.top 2019","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-solarizedlight.css"],"lang":{"shell":"bash"}},"ace":{},"livereload":{},"baidu-tongji":{"url":"https://hm.baidu.com/hm.js","token":"f3f331c21843f7b950e103f51fbabc60"},"simple-page-toc":{},"todo":{},"splitter":{},"search-pro":{},"donate":{"title":"","button":"打赏","wechat":"https://github.com/WebMrYang/image/blob/master/wechat.png?raw=true","alipay":"https://github.com/WebMrYang/image/blob/master/alipay.png?raw=true","wechatText":"微信打赏","alipayText":"支付宝打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":true,"mode":"float","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"webMrYang","repo":"document-library","type":"star","count":true,"size":"small"},{"user":"webMrYang","width":"160","type":"follow","count":true,"size":"small"}]},"copy-code-button":{},"include-codeblock":{"check":false,"edit":false,"lang":"","fixlang":false,"template":"ace","theme":"monokai","unindent":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"杨","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"webMrYang的文档库","language":"zh-hans","gitbook":"*","description":"前端一些资料"},"file":{"path":"gitbook/Regular-library/used.md","mtime":"2019-06-28T09:51:10.073Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-28T10:03:21.907Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook.js"></script>
+    <script src="../theme.js"></script>
+    
+        
+        <script src="../gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-baidu-tongji/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
