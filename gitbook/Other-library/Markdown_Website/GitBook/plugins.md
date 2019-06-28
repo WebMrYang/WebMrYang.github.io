@@ -146,16 +146,16 @@ Gitbook默认自带有5个插件：
 ![](../../../image/gitbook_back-to-top-button.png)
 
 
-### 2.2  chapter-fold 导航目录折叠
+### 2.2  expandable-chapters 导航目录折叠
 
-[GitHub地址](https://github.com/docsproject/gitbook-plugin-chapter-fold)
+[GitHub地址](https://github.com/DomainDrivenArchitecture/gitbook-plugin-expandable-chapters)
 
-在book.json中添加以下内容。然后执行`gitbook install`，或者使用NPM安装`npm install gitbook-plugin-chapter-fold`，也可以从源码GitHub地址中下载，放到node_modules文件夹里（GitHub地址在进入插件地址右侧的GitHub链接）
+在book.json中添加以下内容。然后执行`gitbook install`，或者使用NPM安装`npm install gitbook-plugin-expandable-chapters`，也可以从源码GitHub地址中下载，放到node_modules文件夹里（GitHub地址在进入插件地址右侧的GitHub链接）
 
 ```
     {
         "plugins": [
-            "chapter-fold"
+            "expandable-chapters"
         ]
     }
 ```

@@ -12,6 +12,12 @@
 
 - [Regular](gitbook/Regular-library/README.md)
 
+    - [正则组成](gitbook/Regular-library/composition.md)
+
+    - [正则方法](gitbook/Regular-library/methods.md)
+
+    - [常用正则](gitbook/Regular-library/used.md)
+
 - [Node](gitbook/Node-library/README.md)
 
 - [Mysql](gitbook/Mysql-library/README.md)
