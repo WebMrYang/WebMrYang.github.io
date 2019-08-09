@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    button {
+        background: palegreen;
+        border: none;
+        outline: none;
+        width: 100px;
+        height: 30px;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+    }
+
+    button::before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 0;
+        background: red;
+        /* transform: scaleY(0); */
+        transform-origin: center bottom;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    button:hover::before {
+        height: 100%;
+        /* transform: scaleY(1); */
+        transform-origin: center top;
+    }
+</style>
+
+<body>
+    <button>
+        查看
+    </button>
+</body>
+<script>
+    var arr = [
+        {
+            key: "/product",
+            name: "策略生产平台",
+            children: [
+                {
+                    key: "/draw",
+                    name: "市场画像",
+                    urlPath: 'draw',
+                    requirePath: 'home',
+                    directing: '',
+                    children: [
+                        {
+                            key: "/draw/dimension",
+                            name: "维元管理"
+                        },
+                        {
+                            key: "/draw/arrangeDimension",
+                            name: "维元编排"
+                        },
+                        {
+                            key: "/draw/filterDimension",
+                            name: "像的评估"
+                        }]
+                },
+                {
+                    key: "/proStrategy",
+                    name: "策略生产",
+                    children: [
+                        {
+                            key: "/proStrategy/portrait",
+                            name: "画像子单元"
+                        },
+                        {
+                            key: "/proStrategy/subcellList",
+                            name: "策略子单元"
+                        },
+                        {
+                            key: "/proStrategy/arrangeStrategy",
+                            name: "策略编排"
+                        },
+                        {
+                            key: "/proStrategy/filterStrategy",
+                            name: "策略筛选"
+                        },
+                        {
+                            key: "/proStrategy/autoPatch",
+                            name: "自动化编排"
+                        }
+                    ]
+                },
+                {
+                    key: "/strategy",
+                    name: "策略管理",
+                    children: [
+                        {
+                            key: "/strategy/strategyInStore",
+                            name: "入库策略"
+                        },
+                        {
+                            key: "/strategy/strategyOptimize",
+                            name: "待上线实例"
+                        }
+                    ]
+                },
+                {
+                    key: "/Combine",
+                    name: "组合管理",
+                    children: [
+                        {
+                            key: "/Combine/instCombine",
+                            name: "实例组合"
+                        },
+                        {
+                            key: "/Combine/varietyCombine",
+                            name: "品种组"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            key: "/trade",
+            name: "在线交易平台",
+            children: [
+                {
+                    key: "/account",
+                    name: "账户管理 ",
+                    children: [
+                        {
+                            key: "/account/accountList",
+                            name: "账户列表"
+                        },
+                        {
+                            key: "/account/brokerList",
+                            name: "经纪商列表"
+                        }
+                    ]
+                },
+                {
+                    key: "/onlineBussiness",
+                    name: "在线交易",
+                    children: [
+                        {
+                            key: "/trade/uStrategyList",
+                            name: "策略实例管理"
+                        },
+                        {
+                            key: "/trade/stratInstCombList",
+                            name: "实例组合管理"
+                        },
+                        {
+                            key: "/trade/positionCombine",
+                            name: "持仓管理"
+                        },
+                        {
+                            key: "/trade/dealList",
+                            name: "交易记录表"
+                        },
+                        {
+                            key: "/trade/statementList",
+                            name: "结算单"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            key: "/data",
+            name: "数据管理平台",
+            children: [
+                {
+                    key: "/data/inlandFutures",
+                    name: "国内期货"
+                },
+                {
+                    key: "/data/outerFutures",
+                    name: "外盘期货"
+                },
+                {
+                    key: "/data/outerStock",
+                    name: "外盘股票"
+                },
+                {
+                    key: "/data/forexCFD",
+                    name: "外汇CFD"
+                },
+                {
+                    key: "/data/deriveList",
+                    name: "衍生数据"
+                },
+                {
+                    key: "/data/rankingList",
+                    name: "龙虎榜"
+                }
+            ]
+        },
+        {
+            key: "/risk",
+            name: "风险管理平台",
+            children: [
+                {
+                    key: "/riskMonitor",
+                    name: "风险监控",
+                    children: [
+                        {
+                            key: "/risk/riskChipMonitorList",
+                            name: "风筹风险"
+                        },
+                        {
+                            key: "/risk/behaviorMonitorList",
+                            name: "异常行为"
+                        }
+                    ]
+                },
+                {
+                    key: "/riskThreshold",
+                    name: "风险阈值设置",
+                    children: [
+                        {
+                            key: "/risk/thresholdBehavior",
+                            name: "异常交易行为"
+                        },
+                        /*{
+                          key: "/risk/maxSingleAmount",
+                          name: "单笔最大报单"
+                        },*/
+                        {
+                            key: "/risk/riskLevelList",
+                            name: "风筹风险等级"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            key: "/manage",
+            name: "系统管理",
+            children: [
+                {
+                    key: "/manage/affairList",
+                    name: "关键事件日志"
+                },
+                {
+                    key: "/manage/correlatorList",
+                    name: "容器管理"
+                },
+                {
+                    key: "/manage/userPwd",
+                    name: "修改密码"
+                }
+            ]
+        }
+    ];
+    var ff = ["/manage/userPwd", '/proStrategy/filterStrategy', '/draw/dimension'];
+    var newArr = JSON.parse(JSON.stringify(arr))
+    function getNewArr(arr, ff) {
+        let cc = [];
+        arr.forEach((item, key) => {
+            if (item.children) {
+                let children = getNewArr(item.children, ff);
+                children.length && cc.push({ ...JSON.parse(JSON.stringify(item)), children });
+            } else {
+                ff.includes(item.key) && cc.push(item)
+            }
+        })
+        return cc;
+    }
+    console.log(getNewArr(arr, ff));
+
+</script>
+
+</html>

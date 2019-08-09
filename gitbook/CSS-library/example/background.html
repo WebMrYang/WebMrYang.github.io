@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .exammple {
+            width: 500px;
+            height: 200px;
+            transition: ease-in .3s;
+            right: 0px;
+            background: linear-gradient(0, #108b96, #108b96) no-repeat,
+                linear-gradient(90deg, #108b96, #108b96) no-repeat,
+                linear-gradient(180deg, #108b96, #108b96) no-repeat,
+                linear-gradient(270deg, #108b96, #108b96) no-repeat;
+            background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+            /* background-position: bottom right, left top, top left, right top; */
+            background-position: bottom left, left top, top right, right bottom;
+        }
+
+        .exammple:hover {
+            background-size: 0 2px, 2px 0, 0 2px, 2px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="exammple">
+        22222
+    </div>
+
+</body>
+
+</html>
