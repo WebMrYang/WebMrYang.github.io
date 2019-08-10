@@ -1,12 +1,12 @@
 
-#CSS3动画属性的区别（Transitions, Transforms和Animation）
+# CSS3动画属性的区别（Transitions, Transforms和Animation）
 
 
 ## 1. 介绍 
 
-CSS3动画相关的几个属性是：transition, transform, animation；我分别理解为过渡，变换，动画。虽意义相近，但具体角色不一。
+`CSS3`动画相关的几个属性是：`transition`, `transform`, `animation`；我分别理解为过渡，变换，动画。虽意义相近，但具体角色不一。
 
-`transition`指过渡啦，就是从a点都b点，就像过江坐渡轮，是有时间的，是连续的，一般针对常规CSS属性；`transform`指变换，就那几个固定的属性：旋转啦，缩放啦，偏移啦什么的，当独立于远房亲戚transition独自使用时，效果就是很干涩机械的旋转移动。要是配合transition属性，旋转啊什么的，就会很平滑。`animation`最先安家于Safari浏览器，自成一家，与transition和transform有老死不相往来之感，但是要说单挑的话，animation要比transition厉害些。
+`transition`指过渡啦，就是从a点都b点，就像过江坐渡轮，是有时间的，是连续的，一般针对常规CSS属性；`transform`指变换，就那几个固定的属性：旋转啦，缩放啦，偏移啦什么的，当独立于远房亲戚`transition`独自使用时，效果就是很干涩机械的旋转移动。要是配合`transition`属性，旋转啊什么的，就会很平滑。`animation`最先安家于Safari浏览器，自成一家，与`transition`和`transform`有老死不相往来之感，但是要说单挑的话，`animation`要比`transition`厉害些。
 
 
 
@@ -15,9 +15,9 @@ CSS3动画相关的几个属性是：transition, transform, animation；我分�
 ### 2.1 transition
 
 
-其作用是：平滑的改变CSS的值。无论是点击事件，焦点事件，还是鼠标hover，只要值改变了，就是平滑的，就是动画。于是乎，只要一个整站通用的class，就可以很轻松的渐进增强地实现动画效果，超有实用价值的说。
+其作用是：平滑的改变`CSS`的值。无论是点击事件，焦点事件，还是鼠标hover，只要值改变了，就是平滑的，就是动画。于是乎，只要一个整站通用的`class`，就可以很轻松的渐进增强地实现动画效果，超有实用价值的说。
 
-transiton属性是下面几个属性的缩写：
+`transiton`属性是下面几个属性的缩写：
 
 * transition-property
 
@@ -33,7 +33,7 @@ transiton属性是下面几个属性的缩写：
 
 * transition-timing-function
 
-指定过渡动画缓动类型，有ease | linear | ease-in | ease-out | ease-in-out | cubic-bezier(),其中，linear线性过度，ease-in由慢到快，ease-out由快到慢，ease-in-out由慢到快在到慢
+指定过渡动画缓动类型，有`ease` | `linear` | `ease-in` | `ease-out` | `ease-in-out` | `cubic-bezier`(),其中，`linear`线性过度，`ease-in`由慢到快，`ease-out`由快到慢，`ease-in-out`由慢到快在到慢
 
 例如下面这个很简单的例子：
 
@@ -81,7 +81,7 @@ transiton属性是下面几个属性的缩写：
 
 ### 2.2 transform
 
-`transform`指变换，使用过photoshop的人应该知道里面的Ctrl+T自由变换。transform就是指的这个东西，拉伸，压缩，旋转，偏移。见下面示例代码：
+`transform`指变换，使用过`photoshop`的人应该知道里面的Ctrl+T自由变换。transform就是指的这个东西，拉伸，压缩，旋转，偏移。见下面示例代码：
 
 ```
 .trans_skew { transform: skew(35deg); }
@@ -110,7 +110,7 @@ transiton属性是下面几个属性的缩写：
 
 }
 ```
-三：animations
+### 2.3 animations
 
 ```
 @-webkit-keyframes resize {

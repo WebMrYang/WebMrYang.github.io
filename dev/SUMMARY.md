@@ -15,14 +15,38 @@
     - [动画animation](gitbook/CSS-library/Animation.md)
 
 - [JavaScript](gitbook/JavaScript-library/README.md)
+    
+    - [对象](gitbook/JavaScript-library/Object/README.md)
+
+        - [创建](gitbook/JavaScript-library/Object/Create.md)
+
+        - [继承](gitbook/JavaScript-library/Object/Inherit.md)
+
+        - [构造函数、原型对象实例](gitbook/JavaScript-library/Object/Instance.md)
+
+    - [toString](gitbook/JavaScript-library/ToString.md)
 
     - [bind,apply,call](gitbook/JavaScript-library/PointChange.md)
 
+    - [跨域](gitbook/JavaScript-library/CrossDomain.md)
+
+    - [二叉树遍历](gitbook/JavaScript-library/Traversing.md)
+
+    - [Event Loop](gitbook/JavaScript-library/EventLoop.md)
+
     - [柯里化](gitbook/JavaScript-library/Currying.md)
+
+    
 
 - [HTTP](gitbook/HTTP-library/README.md)
 
     - [状态码](gitbook/HTTP-library/Code.md)
+
+    - [HTTP缓存](gitbook/HTTP-library/Cache.md)
+
+    - [因特网协议](gitbook/HTTP-library/InternetProtocol.md)
+
+    - [TCP通信](gitbook/HTTP-library/Tcp.md)
 
 - [Regular](gitbook/Regular-library/README.md)
 
