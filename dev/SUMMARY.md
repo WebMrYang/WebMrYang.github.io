@@ -23,6 +23,8 @@
         - [继承](gitbook/JavaScript-library/Object/Inherit.md)
 
         - [构造函数、原型对象实例](gitbook/JavaScript-library/Object/Instance.md)
+    
+    - [this指向](gitbook/JavaScript-library/ThisDirection.md)
 
     - [toString](gitbook/JavaScript-library/ToString.md)
 
