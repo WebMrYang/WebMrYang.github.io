@@ -40,7 +40,7 @@
 
     - [柯里化](gitbook/JavaScript-library/Currying.md)
 
-    
+    - [九宫格](gitbook/JavaScript-library/Sudoku/number.md)
 
 - [HTTP](gitbook/HTTP-library/README.md)
 
