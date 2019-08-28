@@ -15,6 +15,7 @@
         <button onclick="sd.reset();">重置</button>
         <button onclick="sd.again();">重玩本局</button>
     </div>
+   <div>
     <span style="font-size:12px;">
         11 &nbsp;21 &nbsp;31 &nbsp; &nbsp; &nbsp;41 &nbsp;51 &nbsp;61 &nbsp; &nbsp; &nbsp;71&nbsp;81 &nbsp;91<br>
         12 &nbsp;22 &nbsp;32 &nbsp; &nbsp; &nbsp;42 &nbsp;52 &nbsp;62 &nbsp; &nbsp; &nbsp;72 &nbsp;82 &nbsp;92<br>
@@ -30,6 +31,7 @@
         &nbsp;<br>
         19 &nbsp;29 &nbsp;39 &nbsp; &nbsp; &nbsp;49 &nbsp;59 &nbsp;69 &nbsp; &nbsp; &nbsp;79 &nbsp;89 &nbsp;99
         &nbsp;</span>
+   </div>
     <script src="http://apps.bdimg.com/libs/jquery/1.8.1/jquery.min.js"></script>
     <script src="number.js"></script>
     <script>
