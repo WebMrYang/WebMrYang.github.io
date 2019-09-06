@@ -25,6 +25,18 @@
         - [继承](gitbook/JavaScript-library/Object/Inherit.md)
 
         - [构造函数、原型对象实例](gitbook/JavaScript-library/Object/Instance.md)
+
+    - [数组](gitbook/JavaScript-library/Array/README.md)
+
+        - [扁平化](gitbook/JavaScript-library/Array/Flat.md)
+
+        - [类数组转化](gitbook/JavaScript-library/Array/ConVersion.md)
+
+        - [数值转化数组](gitbook/JavaScript-library/Array/StringToArr.md)
+
+        - [ES5方法](gitbook/JavaScript-library/Array/ES5.md)
+
+        - [ES6方法](gitbook/JavaScript-library/Array/ES6.md)
     
     - [this指向](gitbook/JavaScript-library/ThisDirection.md)
 
