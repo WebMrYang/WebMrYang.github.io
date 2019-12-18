@@ -7,7 +7,6 @@
         "website": "./gitbook/gitbook-configure.css"
     },
     "plugins": [
-        "theme-comscore",
         "prism",
         "-highlight",
         "copy-code-button",
