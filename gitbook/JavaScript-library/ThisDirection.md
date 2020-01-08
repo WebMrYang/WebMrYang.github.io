@@ -189,7 +189,7 @@ An arrow function expression has a shorter syntax than a function expression and
 这里已经清楚了说明了，箭头函数没有自己的 this 绑定。箭头函数中使用的 this，其实是直接包含它的那个函数或函数表达式中的 this。比如
 
 ```
-onst obj = {
+const obj = {
     test() {
         const arrow = () => {
             // 这里的 this 是 test() 中的 this，
@@ -214,7 +214,21 @@ arrow();        // true
 示例中的两个 this 都是由箭头函数的直接外层函数(方法)决定的，而方法函数中的 this 是由其调用方式决定的。上例的调用方式都是方法调用，所以 this 都指向方法调用的对象，即 obj。
 
 
+diameter是普通函数，里面的this指向直接调用它的对象obj。perimeter是箭头函数，this应该指向上下文函数this的指向，这里上下文没有函数对象，就默认为window，而window里面没有radius这个属性，就返回为NaN。
 
+
+```
+const obj = {
+  radius: 10,  
+  diameter() {    
+      return this.radius * 2
+  },  
+  perimeter: () => 2 * Math.PI * this.radius
+}
+console.log(obj.diameter())    // 20
+console.log(obj.perimeter())    // NaN
+
+```
 
 
 
@@ -284,6 +298,8 @@ arrow();        // true
 8. console.log(a.test2());
 <br/>this -> a
 >15
+
+
 
 
 

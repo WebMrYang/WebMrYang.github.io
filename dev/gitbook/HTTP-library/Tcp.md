@@ -3,20 +3,20 @@
 
 ## 一、 OSI 七层协议模型、TCP/IP 四层模型各层对应
 
-![image.png](https://upload-images.jianshu.io/upload_images/8667801-a6d6c15803ac44f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](../image-classify/http/1.png)
 
 
 
 ## 二、HTTP 与 HTTPS 的区别
 
-![HTTP 与 HTTPS 的区别](https://upload-images.jianshu.io/upload_images/8667801-77fe642a770633c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![HTTP 与 HTTPS 的区别](../image-classify/http/2.png)
 
 
 
 
 ## 三 、TCP/IP 通信传输流
 
-![image.png](https://upload-images.jianshu.io/upload_images/8667801-4d8da58c2789576d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image-classify/http/3.png)
 发送端在层与层之间传输数据时，每经过一层必定会加上一个该层的首部信息。反之，接收端在层与层之间传输数据时，每经过一层会把相关的首部信息去掉。
 
 
@@ -29,7 +29,7 @@
 
 ### 三次握手
 
-![image.png](https://upload-images.jianshu.io/upload_images/8667801-5013ebe70e338152.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image-classify/http/15.png)
 
 ###### 第一次握手：
 建立连接时，向服务器发出连接请求报文，客户端进程进入已发送状态状态,等待服务器确认；
@@ -50,7 +50,7 @@
 
 ### 四次挥手
 
-![image.png](https://upload-images.jianshu.io/upload_images/8667801-b033ad023b2fc0f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image-classify/http/16.png)
 
 **第一次挥手：**
 客户端进程发出连接释放报文，并且停止发送数据。释放数据报文首部 FIN=1，其序列号为 seq = u（等于前面已经传送过来的数据的最后一个字节的序号加1），此时，客户端进入 FIN-WAIT-1（终止等待1）状态。
@@ -83,7 +83,7 @@
 
 当你在浏览器的地址栏输入 `https://jianshu.com` 后会发生什么，大家在心中肯定是有一个大概的，这里我将 **DNS 域名解析** 这个步骤详细的讲一遍。在讲概念之前我先放上一张经典的图文供大家思考一分钟。
 
-![image.png](https://upload-images.jianshu.io/upload_images/8667801-68019ded10a928c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](../image-classify/http/17.png)
 
 
 
