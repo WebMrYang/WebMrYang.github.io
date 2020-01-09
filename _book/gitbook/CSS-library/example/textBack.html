@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    /* 字体边框变化 */
+    /* span {
+        position: relative;
+    }
+
+    span::before {
+        position: absolute;
+        background: red;
+        height: 1px;
+        content: '';
+        width: 100%;
+        left: 0;
+        transform: scale(0);
+        transform-origin: left center;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    span:hover::before {
+        transform: scale(1);
+        transform-origin: right center
+    }
+
+    span::after {
+        position: absolute;
+        background: red;
+        height: 1px;
+        content: '';
+        width: 100%;
+        left: 0;
+        bottom: 0px;
+        transform: scale(0);
+        transform-origin: right center;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    span:hover::after {
+        transform: scale(1);
+        transform-origin: left center
+    } */
+
+
+    /* 字体从下到上变化 */
+    /* span {
+        position: relative;
+        z-index: 1;
+    }
+
+    span::before {
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        height: 100%;
+        background: red;
+        content: '';
+        width: 100%;
+        transform: scaleY(0.1);
+        transform-origin: bottom center;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    span:hover::before {
+        transform: scaleY(1);
+        transform-origin: bottom center
+    } */
+
+    span {
+        position: relative;
+        z-index: 1;
+    }
+
+    span::before {
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: red;
+        content: '';
+        transform: scaleX(0);
+        transform-origin: center left;
+        transition: transform 0.1s linear;
+    }
+
+    span:hover::before {
+        transform: scaleX(1);
+        transform-origin: center left;
+    }
+</style>
+
+<body>
+    <span>
+        你好
+    </span>
+</body>
+
+</html>

@@ -1,0 +1,1202 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>toString · webMrYang的文档库</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="杨">
+        
+        
+    
+    <link rel="stylesheet" href="../style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../gitbook-configure.css">
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="PointChange.html" />
+    
+    
+    <link rel="prev" href="ThisDirection.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"webMrYang","repo":"document-library","type":"star","count":true,"size":"small"},{"user":"webMrYang","width":"160","type":"follow","count":true,"size":"small"}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../updateRecord.html">
+            
+                <a href="../updateRecord.html">
+            
+                    
+                    更新记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../meun.html">
+            
+                <a href="../meun.html">
+            
+                    
+                    文档库目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../messageBoard.html">
+            
+                <a href="../messageBoard.html">
+            
+                    
+                    留言板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../CSS-library/">
+            
+                <a href="../CSS-library/">
+            
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../CSS-library/Flex.html">
+            
+                <a href="../CSS-library/Flex.html">
+            
+                    
+                    Flex
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../CSS-library/BoxCenter.html">
+            
+                <a href="../CSS-library/BoxCenter.html">
+            
+                    
+                    居中效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../CSS-library/Animation.html">
+            
+                <a href="../CSS-library/Animation.html">
+            
+                    
+                    动画animation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../CSS-library/MeasureCom.html">
+            
+                <a href="../CSS-library/MeasureCom.html">
+            
+                    
+                    rem,px,em
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="Object/">
+            
+                <a href="Object/">
+            
+                    
+                    对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="Object/Create.html">
+            
+                <a href="Object/Create.html">
+            
+                    
+                    创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" data-path="Object/Inherit.html">
+            
+                <a href="Object/Inherit.html">
+            
+                    
+                    继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.3" data-path="Object/Instance.html">
+            
+                <a href="Object/Instance.html">
+            
+                    
+                    构造函数、原型对象实例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="Array/">
+            
+                <a href="Array/">
+            
+                    
+                    数组
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="Array/Flat.html">
+            
+                <a href="Array/Flat.html">
+            
+                    
+                    扁平化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="Array/ConVersion.html">
+            
+                <a href="Array/ConVersion.html">
+            
+                    
+                    类数组转化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.3" data-path="Array/StringToArr.html">
+            
+                <a href="Array/StringToArr.html">
+            
+                    
+                    数值转化数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.4" data-path="Array/ES5.html">
+            
+                <a href="Array/ES5.html">
+            
+                    
+                    ES5方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.5" data-path="Array/ES6.html">
+            
+                <a href="Array/ES6.html">
+            
+                    
+                    ES6方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="ThisDirection.html">
+            
+                <a href="ThisDirection.html">
+            
+                    
+                    this指向
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6.4" data-path="ToString.html">
+            
+                <a href="ToString.html">
+            
+                    
+                    toString
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="PointChange.html">
+            
+                <a href="PointChange.html">
+            
+                    
+                    bind,apply,call
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="CrossDomain.html">
+            
+                <a href="CrossDomain.html">
+            
+                    
+                    跨域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="Traversing/">
+            
+                <a href="Traversing/">
+            
+                    
+                    二叉树遍历
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.7.1" data-path="Traversing/init.html">
+            
+                <a href="Traversing/init.html">
+            
+                    
+                    二叉树实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7.2" data-path="Traversing/handy.html">
+            
+                <a href="Traversing/handy.html">
+            
+                    
+                    二叉树遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7.3" data-path="Traversing/rebuild.html">
+            
+                <a href="Traversing/rebuild.html">
+            
+                    
+                    二叉树重建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7.4" data-path="Traversing/other.html">
+            
+                <a href="Traversing/other.html">
+            
+                    
+                    其他
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="EventLoop.html">
+            
+                <a href="EventLoop.html">
+            
+                    
+                    Event Loop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="Currying.html">
+            
+                <a href="Currying.html">
+            
+                    
+                    柯里化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.10" data-path="Sudoku/number.html">
+            
+                <a href="Sudoku/number.html">
+            
+                    
+                    九宫格
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../HTTP-library/">
+            
+                <a href="../HTTP-library/">
+            
+                    
+                    HTTP
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../HTTP-library/Code.html">
+            
+                <a href="../HTTP-library/Code.html">
+            
+                    
+                    状态码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../HTTP-library/Cache.html">
+            
+                <a href="../HTTP-library/Cache.html">
+            
+                    
+                    HTTP缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../HTTP-library/InternetProtocol.html">
+            
+                <a href="../HTTP-library/InternetProtocol.html">
+            
+                    
+                    因特网协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../HTTP-library/Tcp.html">
+            
+                <a href="../HTTP-library/Tcp.html">
+            
+                    
+                    TCP通信
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../Regular-library/">
+            
+                <a href="../Regular-library/">
+            
+                    
+                    Regular
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../Regular-library/composition.html">
+            
+                <a href="../Regular-library/composition.html">
+            
+                    
+                    正则组成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../Regular-library/methods.html">
+            
+                <a href="../Regular-library/methods.html">
+            
+                    
+                    正则方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../Regular-library/used.html">
+            
+                <a href="../Regular-library/used.html">
+            
+                    
+                    常用正则
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Node-library/">
+            
+                <a href="../Node-library/">
+            
+                    
+                    Node
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../Node-library/fs.html">
+            
+                <a href="../Node-library/fs.html">
+            
+                    
+                    fs组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../Mysql-library/">
+            
+                <a href="../Mysql-library/">
+            
+                    
+                    Mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../Npm-library/">
+            
+                <a href="../Npm-library/">
+            
+                    
+                    Npm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../Other-library/">
+            
+                <a href="../Other-library/">
+            
+                    
+                    其他资料库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../Other-library/Markdown_Website/">
+            
+                <a href="../Other-library/Markdown_Website/">
+            
+                    
+                    Markdown_Website
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1.1" data-path="../Other-library/Markdown_Website/Markdown/">
+            
+                <a href="../Other-library/Markdown_Website/Markdown/">
+            
+                    
+                    Markdown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.2" data-path="../Other-library/Markdown_Website/GitBook/">
+            
+                <a href="../Other-library/Markdown_Website/GitBook/">
+            
+                    
+                    GitBook 建站
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1.2.1" data-path="../Other-library/Markdown_Website/GitBook/init.html">
+            
+                <a href="../Other-library/Markdown_Website/GitBook/init.html">
+            
+                    
+                    环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.2.2" data-path="../Other-library/Markdown_Website/GitBook/plugins.html">
+            
+                <a href="../Other-library/Markdown_Website/GitBook/plugins.html">
+            
+                    
+                    插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.2.3" data-path="../Other-library/Markdown_Website/GitBook/build.html">
+            
+                <a href="../Other-library/Markdown_Website/GitBook/build.html">
+            
+                    
+                    发布
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.2.4" data-path="../Other-library/Markdown_Website/GitBook/question.html">
+            
+                <a href="../Other-library/Markdown_Website/GitBook/question.html">
+            
+                    
+                    开发问题记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.3" data-path="../Other-library/Markdown_Website/GitHub/">
+            
+                <a href="../Other-library/Markdown_Website/GitHub/">
+            
+                    
+                    GitHub 发布
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="../Other-library/SSH/">
+            
+                <a href="../Other-library/SSH/">
+            
+                    
+                    SSH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3" data-path="../Other-library/garbageCollection.html">
+            
+                <a href="../Other-library/garbageCollection.html">
+            
+                    
+                    垃圾回收
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4" data-path="../Other-library/Interview/">
+            
+                <a href="../Other-library/Interview/">
+            
+                    
+                    面试
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.4.1" data-path="../Other-library/Interview/CSS/">
+            
+                <a href="../Other-library/Interview/CSS/">
+            
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4.2" data-path="../Other-library/Interview/JS/">
+            
+                <a href="../Other-library/Interview/JS/">
+            
+                    
+                    JS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4.3" data-path="../Other-library/Interview/HTTP/">
+            
+                <a href="../Other-library/Interview/HTTP/">
+            
+                    
+                    HTTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4.4" data-path="../Other-library/Interview/Vue/">
+            
+                <a href="../Other-library/Interview/Vue/">
+            
+                    
+                    Vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4.5" data-path="../Other-library/Interview/React/">
+            
+                <a href="../Other-library/Interview/React/">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >toString</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#tostring&#x4F5C;&#x7528;"><b></b>toString&#x4F5C;&#x7528;</a></li></ul></div><a href="#tostring&#x4F5C;&#x7528;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="tostring&#x4F5C;&#x7528;"><a name="tostring&#x4F5C;&#x7528;" class="anchor-navigation-ex-anchor" href="#tostring&#x4F5C;&#x7528;"><i class="fa fa-link" aria-hidden="true"></i></a>toString&#x4F5C;&#x7528;</h1>
+<p>&#x8FD4;&#x56DE;&#x503C;&#xFF1A;</p>
+<p><code>toString()</code> &#x51FD;&#x6570;&#x7684;&#x8FD4;&#x56DE;&#x503C;&#x4E3A; <code>Sring</code> &#x7C7B;&#x578B;,&#x8FD4;&#x56DE;&#x5F53;&#x524D;&#x5BF9;&#x8C61;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x5F62;&#x5F0F;&#x3002;
+<code>JavaScript</code> &#x7684;&#x8BB8;&#x591A;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;&#x90FD;&#x91CD;&#x65B0;&#x4E86;&#x76D6;&#x51FD;&#x6570;&#xFF0C;&#x6765;&#x5B9E;&#x73B0;&#x81EA;&#x8EAB;&#x7684;&#x529F;&#x80FD;&#x9700;&#x8981;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x884C;&#x4E3A;&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Array</td>
+<td>&#x5C06;&#x6570;&#x7EC4;&#x7684;&#x6BCF;&#x4E2A;&#x5143;&#x7D20;&#x8F6C;&#x5316;&#x4E3A;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x5E76;&#x5C06;&#x4ED6;&#x4EEC;&#x4E4B;&#x95F4;&#x7528;&#x82F1;&#x6587;&#x9017;&#x53F7;&#x8FDE;&#x63A5;&#x8D77;&#x6765;</td>
+</tr>
+<tr>
+<td>Boolean</td>
+<td>&#x5982;&#x679C;&#x5E03;&#x5C14;&#x503C;&#x662F;true&#xFF0C;&#x5219;&#x8FD4;&#x56DE;&#x201C;true&#x201D;&#xFF0C;&#x5426;&#x5219;&#x8FD4;&#x56DE;&#x201C;false&#x201D;</td>
+</tr>
+<tr>
+<td>Function</td>
+<td>&#x5F53; name &#x662F;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x7684;&#x540D;&#x79F0;&#xFF0C;&#x8C03;&#x7528;toString&#x65B9;&#x6CD5;&#x65F6;&#x8FD4;&#x56DE;&quot;function name(){}&quot;</td>
+</tr>
+<tr>
+<td>String</td>
+<td>&#x8FD4;&#x56DE;string&#x7684;&#x503C;</td>
+</tr>
+<tr>
+<td>Number</td>
+<td>&#x8FD4;&#x56DE;&#x6570;&#x7EC4;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x8868;&#x793A;</td>
+</tr>
+<tr>
+<td>Object</td>
+<td>&#x8FD4;&#x56DE;&quot;[object ObjectName]&quot; &#x5176;&#x4E2D; ObjectName&#x662F;&#x5BF9;&#x8C61;&#x7C7B;&#x578B;&#x7684;&#x540D;&#x79F0;&#xFF0C;</td>
+</tr>
+</tbody>
+</table>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; webMrYang.top 2019 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2019-08-10 15:49:04
+</span></footer></body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="ThisDirection.html" class="navigation navigation-prev " aria-label="Previous page: this指向">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="PointChange.html" class="navigation navigation-next " aria-label="Next page: bind,apply,call">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"toString","level":"1.6.4","depth":2,"next":{"title":"bind,apply,call","level":"1.6.5","depth":2,"path":"gitbook/JavaScript-library/PointChange.md","ref":"gitbook/JavaScript-library/PointChange.md","articles":[]},"previous":{"title":"this指向","level":"1.6.3","depth":2,"path":"gitbook/JavaScript-library/ThisDirection.md","ref":"gitbook/JavaScript-library/ThisDirection.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","copy-code-button","search-pro","-search","-lunr","expandable-chapters","splitter","-sharing","github-buttons","donate","tbfed-pagefooter","baidu-tongji","anchor-navigation-ex","simple-page-toc","livereload","sectionx","todo","include-codeblock","ace"],"styles":{"website":"./gitbook/gitbook-configure.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy webMrYang.top 2019","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-solarizedlight.css"],"lang":{"shell":"bash"}},"ace":{},"livereload":{},"baidu-tongji":{"url":"https://hm.baidu.com/hm.js","token":"f3f331c21843f7b950e103f51fbabc60"},"simple-page-toc":{},"todo":{},"splitter":{},"search-pro":{},"donate":{"title":"","button":"打赏","wechat":"https://github.com/WebMrYang/image/blob/master/wechat.png?raw=true","alipay":"https://github.com/WebMrYang/image/blob/master/alipay.png?raw=true","wechatText":"微信打赏","alipayText":"支付宝打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":true,"mode":"float","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"github-buttons":{"buttons":[{"user":"webMrYang","repo":"document-library","type":"star","count":true,"size":"small"},{"user":"webMrYang","width":"160","type":"follow","count":true,"size":"small"}]},"copy-code-button":{},"include-codeblock":{"check":false,"edit":false,"lang":"","fixlang":false,"template":"ace","theme":"monokai","unindent":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"杨","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"webMrYang的文档库","language":"zh-hans","gitbook":"*","description":"前端一些资料"},"file":{"path":"gitbook/JavaScript-library/ToString.md","mtime":"2019-08-10T07:49:04.325Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-18T08:31:02.139Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook.js"></script>
+    <script src="../theme.js"></script>
+    
+        
+        <script src="../gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-baidu-tongji/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

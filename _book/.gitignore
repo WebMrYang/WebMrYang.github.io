@@ -1,0 +1,12 @@
+
+#node_modules
+
+/dev/node_modules
+
+/dev/_book
+
+
+/gitbookBuild
+
+# production
+./build

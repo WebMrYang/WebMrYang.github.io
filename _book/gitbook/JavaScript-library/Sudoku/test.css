@@ -1,0 +1,47 @@
+.t-c{
+    text-align: center
+}
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+ul,li{
+    list-style: none;	
+    padding: 0px;
+    margin: 0px;
+}
+.sd{
+    width: 282px;
+    margin: 50px auto 0;
+}
+.sdLi{
+    width: 100%;
+    height: 28px;
+}
+.sdSpan{
+    margin: 0;
+    display: inline-block;
+    width:26px;
+    height: 26px;
+    border:1px dotted green;
+    line-height: 26px;
+    text-align: center;
+}
+.sdLi .sdSpan:nth-child(3),.sdLi .sdSpan:nth-child(6){
+    border-right-style: solid;
+}
+.sdLi .sdSpan:nth-child(4),.sdLi .sdSpan:nth-child(7){
+    border-left-width: 2px;
+    border-left-style: solid;
+}
+.sdLi:nth-child(3) .sdSpan,.sdLi:nth-child(6) .sdSpan{
+    border-bottom-style: solid;
+}
+.sdLi:nth-child(4) .sdSpan,.sdLi:nth-child(7) .sdSpan{
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+.bg_red{
+    background: red;
+}

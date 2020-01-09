@@ -1,0 +1,1376 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>继承 · webMrYang的文档库</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="杨">
+        
+        
+    
+    <link rel="stylesheet" href="../../style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../gitbook-configure.css">
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Instance.html" />
+    
+    
+    <link rel="prev" href="Create.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"webMrYang","repo":"document-library","type":"star","count":true,"size":"small"},{"user":"webMrYang","width":"160","type":"follow","count":true,"size":"small"}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../updateRecord.html">
+            
+                <a href="../../updateRecord.html">
+            
+                    
+                    更新记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../meun.html">
+            
+                <a href="../../meun.html">
+            
+                    
+                    文档库目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../messageBoard.html">
+            
+                <a href="../../messageBoard.html">
+            
+                    
+                    留言板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../CSS-library/">
+            
+                <a href="../../CSS-library/">
+            
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../CSS-library/Flex.html">
+            
+                <a href="../../CSS-library/Flex.html">
+            
+                    
+                    Flex
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../CSS-library/BoxCenter.html">
+            
+                <a href="../../CSS-library/BoxCenter.html">
+            
+                    
+                    居中效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../CSS-library/Animation.html">
+            
+                <a href="../../CSS-library/Animation.html">
+            
+                    
+                    动画animation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../../CSS-library/MeasureCom.html">
+            
+                <a href="../../CSS-library/MeasureCom.html">
+            
+                    
+                    rem,px,em
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="Create.html">
+            
+                <a href="Create.html">
+            
+                    
+                    创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6.1.2" data-path="Inherit.html">
+            
+                <a href="Inherit.html">
+            
+                    
+                    继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.3" data-path="Instance.html">
+            
+                <a href="Instance.html">
+            
+                    
+                    构造函数、原型对象实例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../Array/">
+            
+                <a href="../Array/">
+            
+                    
+                    数组
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../Array/Flat.html">
+            
+                <a href="../Array/Flat.html">
+            
+                    
+                    扁平化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="../Array/ConVersion.html">
+            
+                <a href="../Array/ConVersion.html">
+            
+                    
+                    类数组转化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.3" data-path="../Array/StringToArr.html">
+            
+                <a href="../Array/StringToArr.html">
+            
+                    
+                    数值转化数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.4" data-path="../Array/ES5.html">
+            
+                <a href="../Array/ES5.html">
+            
+                    
+                    ES5方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.5" data-path="../Array/ES6.html">
+            
+                <a href="../Array/ES6.html">
+            
+                    
+                    ES6方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../ThisDirection.html">
+            
+                <a href="../ThisDirection.html">
+            
+                    
+                    this指向
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../ToString.html">
+            
+                <a href="../ToString.html">
+            
+                    
+                    toString
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../PointChange.html">
+            
+                <a href="../PointChange.html">
+            
+                    
+                    bind,apply,call
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../CrossDomain.html">
+            
+                <a href="../CrossDomain.html">
+            
+                    
+                    跨域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../Traversing/">
+            
+                <a href="../Traversing/">
+            
+                    
+                    二叉树遍历
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.7.1" data-path="../Traversing/init.html">
+            
+                <a href="../Traversing/init.html">
+            
+                    
+                    二叉树实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7.2" data-path="../Traversing/handy.html">
+            
+                <a href="../Traversing/handy.html">
+            
+                    
+                    二叉树遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7.3" data-path="../Traversing/rebuild.html">
+            
+                <a href="../Traversing/rebuild.html">
+            
+                    
+                    二叉树重建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7.4" data-path="../Traversing/other.html">
+            
+                <a href="../Traversing/other.html">
+            
+                    
+                    其他
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../EventLoop.html">
+            
+                <a href="../EventLoop.html">
+            
+                    
+                    Event Loop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../Currying.html">
+            
+                <a href="../Currying.html">
+            
+                    
+                    柯里化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.10" data-path="../Sudoku/number.html">
+            
+                <a href="../Sudoku/number.html">
+            
+                    
+                    九宫格
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../HTTP-library/">
+            
+                <a href="../../HTTP-library/">
+            
+                    
+                    HTTP
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../HTTP-library/Code.html">
+            
+                <a href="../../HTTP-library/Code.html">
+            
+                    
+                    状态码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../HTTP-library/Cache.html">
+            
+                <a href="../../HTTP-library/Cache.html">
+            
+                    
+                    HTTP缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../HTTP-library/InternetProtocol.html">
+            
+                <a href="../../HTTP-library/InternetProtocol.html">
+            
+                    
+                    因特网协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../../HTTP-library/Tcp.html">
+            
+                <a href="../../HTTP-library/Tcp.html">
+            
+                    
+                    TCP通信
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../Regular-library/">
+            
+                <a href="../../Regular-library/">
+            
+                    
+                    Regular
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../Regular-library/composition.html">
+            
+                <a href="../../Regular-library/composition.html">
+            
+                    
+                    正则组成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../../Regular-library/methods.html">
+            
+                <a href="../../Regular-library/methods.html">
+            
+                    
+                    正则方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../../Regular-library/used.html">
+            
+                <a href="../../Regular-library/used.html">
+            
+                    
+                    常用正则
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../Node-library/">
+            
+                <a href="../../Node-library/">
+            
+                    
+                    Node
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../../Node-library/fs.html">
+            
+                <a href="../../Node-library/fs.html">
+            
+                    
+                    fs组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../../Mysql-library/">
+            
+                <a href="../../Mysql-library/">
+            
+                    
+                    Mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../../Npm-library/">
+            
+                <a href="../../Npm-library/">
+            
+                    
+                    Npm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../../Other-library/">
+            
+                <a href="../../Other-library/">
+            
+                    
+                    其他资料库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../../Other-library/Markdown_Website/">
+            
+                <a href="../../Other-library/Markdown_Website/">
+            
+                    
+                    Markdown_Website
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1.1" data-path="../../Other-library/Markdown_Website/Markdown/">
+            
+                <a href="../../Other-library/Markdown_Website/Markdown/">
+            
+                    
+                    Markdown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.2" data-path="../../Other-library/Markdown_Website/GitBook/">
+            
+                <a href="../../Other-library/Markdown_Website/GitBook/">
+            
+                    
+                    GitBook 建站
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1.2.1" data-path="../../Other-library/Markdown_Website/GitBook/init.html">
+            
+                <a href="../../Other-library/Markdown_Website/GitBook/init.html">
+            
+                    
+                    环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.2.2" data-path="../../Other-library/Markdown_Website/GitBook/plugins.html">
+            
+                <a href="../../Other-library/Markdown_Website/GitBook/plugins.html">
+            
+                    
+                    插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.2.3" data-path="../../Other-library/Markdown_Website/GitBook/build.html">
+            
+                <a href="../../Other-library/Markdown_Website/GitBook/build.html">
+            
+                    
+                    发布
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.2.4" data-path="../../Other-library/Markdown_Website/GitBook/question.html">
+            
+                <a href="../../Other-library/Markdown_Website/GitBook/question.html">
+            
+                    
+                    开发问题记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.3" data-path="../../Other-library/Markdown_Website/GitHub/">
+            
+                <a href="../../Other-library/Markdown_Website/GitHub/">
+            
+                    
+                    GitHub 发布
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="../../Other-library/SSH/">
+            
+                <a href="../../Other-library/SSH/">
+            
+                    
+                    SSH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3" data-path="../../Other-library/garbageCollection.html">
+            
+                <a href="../../Other-library/garbageCollection.html">
+            
+                    
+                    垃圾回收
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4" data-path="../../Other-library/Interview/">
+            
+                <a href="../../Other-library/Interview/">
+            
+                    
+                    面试
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.4.1" data-path="../../Other-library/Interview/CSS/">
+            
+                <a href="../../Other-library/Interview/CSS/">
+            
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4.2" data-path="../../Other-library/Interview/JS/">
+            
+                <a href="../../Other-library/Interview/JS/">
+            
+                    
+                    JS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4.3" data-path="../../Other-library/Interview/HTTP/">
+            
+                <a href="../../Other-library/Interview/HTTP/">
+            
+                    
+                    HTTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4.4" data-path="../../Other-library/Interview/Vue/">
+            
+                <a href="../../Other-library/Interview/Vue/">
+            
+                    
+                    Vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4.5" data-path="../../Other-library/Interview/React/">
+            
+                <a href="../../Other-library/Interview/React/">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >继承</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#js&#x7684;&#x7EE7;&#x627F;"><b></b>js&#x7684;&#x7EE7;&#x627F;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4E00;&#x3001;&#x6BD4;&#x8F83;"><b></b>&#x4E00;&#x3001;&#x6BD4;&#x8F83;</a></li><li><span class="title-icon "></span><a href="#&#x4E8C;&#x3001;&#x65B9;&#x6CD5;"><b></b>&#x4E8C;&#x3001;&#x65B9;&#x6CD5;</a></li><ul><li><span class="title-icon "></span><a href="#21-&#x539F;&#x578B;&#x5F0F;&#x7EE7;&#x627F;"><b></b>2.1 &#x539F;&#x578B;&#x5F0F;&#x7EE7;&#x627F;</a></li><li><span class="title-icon "></span><a href="#22-&#x5BC4;&#x751F;&#x5F0F;&#x7EE7;&#x627F;"><b></b>2.2 &#x5BC4;&#x751F;&#x5F0F;&#x7EE7;&#x627F;</a></li><li><span class="title-icon "></span><a href="#33-&#x501F;&#x52A9;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7EE7;&#x627F;"><b></b>3.3 &#x501F;&#x52A9;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7EE7;&#x627F;</a></li><li><span class="title-icon "></span><a href="#24-&#x539F;&#x578B;&#x94FE;&#x7EE7;&#x627F;"><b></b>2.4 &#x539F;&#x578B;&#x94FE;&#x7EE7;&#x627F;</a></li><li><span class="title-icon "></span><a href="#25-&#x7EC4;&#x5408;&#x7EE7;&#x627F;"><b></b>2.5 &#x7EC4;&#x5408;&#x7EE7;&#x627F;</a></li><li><span class="title-icon "></span><a href="#26-&#x5BC4;&#x751F;&#x5F0F;&#x7EC4;&#x5408;&#x7EE7;&#x627F;"><b></b>2.6 &#x5BC4;&#x751F;&#x5F0F;&#x7EC4;&#x5408;&#x7EE7;&#x627F;</a></li><li><span class="title-icon "></span><a href="#27-class&#x7EE7;&#x627F;"><b></b>2.7 Class&#x7EE7;&#x627F;</a></li><li><span class="title-icon "></span><a href="#28-&#x6DF1;&#x62F7;&#x8D1D;&#x7EE7;&#x627F;"><b></b>2.8 &#x6DF1;&#x62F7;&#x8D1D;&#x7EE7;&#x627F;</a></li></ul></ul></ul></div><a href="#js&#x7684;&#x7EE7;&#x627F;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="js&#x7684;&#x7EE7;&#x627F;"><a name="js&#x7684;&#x7EE7;&#x627F;" class="anchor-navigation-ex-anchor" href="#js&#x7684;&#x7EE7;&#x627F;"><i class="fa fa-link" aria-hidden="true"></i></a>js&#x7684;&#x7EE7;&#x627F;</h1>
+<h2 id="&#x4E00;&#x3001;&#x6BD4;&#x8F83;"><a name="&#x4E00;&#x3001;&#x6BD4;&#x8F83;" class="anchor-navigation-ex-anchor" href="#&#x4E00;&#x3001;&#x6BD4;&#x8F83;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E00;&#x3001;&#x6BD4;&#x8F83;</h2>
+<p>&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7684;&#x7EE7;&#x627F;&#x65B9;&#x5F0F;&#x6709;&#x5F88;&#x591A;&#x79CD;&#xFF0C;&#x539F;&#x578B;&#x94FE;&#x7EE7;&#x627F;&#x3001;&#x501F;&#x7528;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7EE7;&#x627F;&#x3001;&#x7EC4;&#x5408;&#x7EE7;&#x627F;&#x3001;&#x539F;&#x578B;&#x5F0F;&#x7EE7;&#x627F;&#x3001;&#x5BC4;&#x751F;&#x5F0F;&#x7EE7;&#x627F;&#x3001;&#x5BC4;&#x751F;&#x5F0F;&#x7EC4;&#x5408;&#x7EE7;&#x627F;&#x3001;&#x6DF1;&#x62F7;&#x8D1D;&#x7EE7;&#x627F;&#x7B49;&#x7B49;&#x3002;</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/8667801-c9aae36c9254c861.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<h2 id="&#x4E8C;&#x3001;&#x65B9;&#x6CD5;"><a name="&#x4E8C;&#x3001;&#x65B9;&#x6CD5;" class="anchor-navigation-ex-anchor" href="#&#x4E8C;&#x3001;&#x65B9;&#x6CD5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E8C;&#x3001;&#x65B9;&#x6CD5;</h2>
+<h3 id="21-&#x539F;&#x578B;&#x5F0F;&#x7EE7;&#x627F;"><a name="21-&#x539F;&#x578B;&#x5F0F;&#x7EE7;&#x627F;" class="anchor-navigation-ex-anchor" href="#21-&#x539F;&#x578B;&#x5F0F;&#x7EE7;&#x627F;"><i class="fa fa-link" aria-hidden="true"></i></a>2.1 &#x539F;&#x578B;&#x5F0F;&#x7EE7;&#x627F;</h3>
+<pre class="language-"><code>function createObjWithObj(obj){ // * &#x4F20;&#x5165;&#x4E00;&#x4E2A;&#x539F;&#x578B;&#x5BF9;&#x8C61;
+    function Temp(){}
+    Temp.prototype = obj
+    let o = new Temp()
+    return o
+}
+// * &#x628A;Person&#x7684;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x5F53;&#x505A;temp&#x7684;&#x539F;&#x578B;&#x5BF9;&#x8C61;
+let temp = createObjWithObj(Person.prototype)
+// * &#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;Object.create&#x5B9E;&#x73B0;
+// * &#x628A;Person&#x7684;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x5F53;&#x505A;temp2&#x7684;&#x539F;&#x578B;&#x5BF9;&#x8C61;
+let temp2 = Object.create(Person.prototype)
+</code></pre><p>&#x672C;&#x8D28;&#x4E0A;<code>createObjWithObj()</code> &#x5BF9;&#x4F20;&#x5165;&#x5176;&#x4E2D;&#x7684;&#x5BF9;&#x8C61;&#x6267;&#x884C;&#x4E86;&#x4E00;&#x6B21;&#x6D45;&#x590D;&#x5236;&#xFF0C;&#x5C06;&#x6784;&#x9020;&#x51FD;&#x6570; F &#x7684;&#x539F;&#x578B;&#x76F4;&#x63A5;&#x6307;&#x5411;&#x4F20;&#x5165;&#x7684;&#x5BF9;&#x8C61;&#x3002;</p>
+<p><strong>&#x7F3A;&#x70B9;</strong></p>
+<ol>
+<li>&#x539F;&#x578B;&#x4E2D;&#x5F15;&#x7528;&#x7C7B;&#x578B;&#x503C;&#x4F1A;&#x88AB;&#x4FEE;&#x6539;</li>
+<li>&#x65E0;&#x6CD5;&#x4F20;&#x9012;&#x53C2;&#x6570;</li>
+</ol>
+<h3 id="22-&#x5BC4;&#x751F;&#x5F0F;&#x7EE7;&#x627F;"><a name="22-&#x5BC4;&#x751F;&#x5F0F;&#x7EE7;&#x627F;" class="anchor-navigation-ex-anchor" href="#22-&#x5BC4;&#x751F;&#x5F0F;&#x7EE7;&#x627F;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2 &#x5BC4;&#x751F;&#x5F0F;&#x7EE7;&#x627F;</h3>
+<p>// &#x5BC4;&#x751F;&#x5F0F;&#x7EE7;&#x627F;</p>
+<p>// &#x6211;&#x4EEC;&#x5728;&#x539F;&#x578B;&#x5F0F;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#xFF0C;&#x5E0C;&#x671B;&#x7ED9;&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61;&#x65B0;&#x589E;&#x4E00;&#x4E9B;&#x5C5E;&#x6027;&#x65B9;&#x6CD5;</p>
+<p>// &#x90A3;&#x4E48;&#x6211;&#x4EEC;&#x5728;&#x539F;&#x578B;&#x5F0F;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#x6269;&#x5C55;</p>
+<pre class="language-"><code>function createNewObjWithObj(obj) {
+    let o = createObjWithObj(obj)
+    o.name = &quot;&#x90B5;&#x5A01;&#x5112;&quot;
+    o.age = 28
+    return o
+}
+</code></pre><p>&#x51FD;&#x6570;&#x7684;&#x4E3B;&#x8981;&#x4F5C;&#x7528;&#x662F;&#x4E3A;&#x6784;&#x9020;&#x51FD;&#x6570;&#x65B0;&#x589E;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#xFF0C;&#x4EE5;&#x589E;&#x5F3A;&#x51FD;&#x6570;&#x3002;</p>
+<p><strong>&#x7F3A;&#x70B9;&#xFF08;&#x540C;&#x539F;&#x578B;&#x5F0F;&#x7EE7;&#x627F;&#xFF09;&#xFF1A;</strong></p>
+<ol>
+<li>&#x539F;&#x578B;&#x4E2D;&#x5F15;&#x7528;&#x7C7B;&#x578B;&#x503C;&#x4F1A;&#x88AB;&#x4FEE;&#x6539;</li>
+<li>&#x65E0;&#x6CD5;&#x4F20;&#x9012;&#x53C2;&#x6570;</li>
+</ol>
+<h3 id="33-&#x501F;&#x52A9;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7EE7;&#x627F;"><a name="33-&#x501F;&#x52A9;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7EE7;&#x627F;" class="anchor-navigation-ex-anchor" href="#33-&#x501F;&#x52A9;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7EE7;&#x627F;"><i class="fa fa-link" aria-hidden="true"></i></a>3.3 &#x501F;&#x52A9;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7EE7;&#x627F;</h3>
+<p>&#x901A;&#x8FC7;&#x8FD9;&#x6837;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x4F1A;&#x6709;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x7C7B;&#x4F3C;&#x4E00;&#x4E2A;&#x5171;&#x4EAB;&#x5E93;&#xFF0C;&#x6240;&#x6709;&#x5B9E;&#x4F8B;&#x5171;&#x4EAB;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x540C;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;&#x65B9;&#x6CD5;&#xFF0C;&#x5982;&#x679C;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x4E0A;&#x6709;&#x5F15;&#x7528;&#x7C7B;&#x578B;&#xFF0C;&#x90A3;&#x4E48;&#x4F1A;&#x88AB;&#x6240;&#x6709;&#x5B9E;&#x4F8B;&#x5171;&#x4EAB;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x67D0;&#x4E2A;&#x5B9E;&#x4F8B;&#x66F4;&#x6539;&#x4E86;&#xFF0C;&#x5219;&#x4F1A;&#x5F71;&#x54CD;&#x5176;&#x4ED6;&#x5B9E;&#x4F8B;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x770B;&#x4E00;&#x4E0B;</p>
+<pre class="language-"><code>function Person(name,pets){ // * &#x7236;&#x6784;&#x9020;&#x51FD;&#x6570;&#x63A5;&#x6536;name&#xFF0C;pets&#x53C2;&#x6570;
+    this.name = name // * &#x8D4B;&#x503C;&#x5230;this&#x4E0A;
+    this.pets = pets // * &#x8D4B;&#x503C;&#x5230;this&#x4E0A;
+}
+Person.prototype.eat = function(){
+    console.log(&apos;&#x5403;&#x996D;&apos;)
+}
+function Student(num,name,pets){ // * &#x5728;&#x5B50;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4E2D;&#x4E5F;&#x63A5;&#x6536;&#x53C2;&#x6570;
+    Person.call(this,name,pets) // * &#x5728;&#x8FD9;&#x91CC;&#x628A;name&#x548C;pets&#x4F20;&#x53C2;&#x6570;
+    this.num = num // * &#x8D4B;&#x503C;&#x5230;this&#x4E0A;
+}
+let student = new Student(&quot;030578000&quot;,&quot;&#x90B5;&#x5A01;&#x5112;&quot;,[&quot;&#x65FA;&#x8D22;&quot;,&quot;&#x5C0F;&#x9EC4;&quot;])
+</code></pre><h3 id="24-&#x539F;&#x578B;&#x94FE;&#x7EE7;&#x627F;"><a name="24-&#x539F;&#x578B;&#x94FE;&#x7EE7;&#x627F;" class="anchor-navigation-ex-anchor" href="#24-&#x539F;&#x578B;&#x94FE;&#x7EE7;&#x627F;"><i class="fa fa-link" aria-hidden="true"></i></a>2.4 &#x539F;&#x578B;&#x94FE;&#x7EE7;&#x627F;</h3>
+<p>&#x5229;&#x7528;&#x539F;&#x578B;&#x94FE;&#x7684;&#x7279;&#x6027;&#xFF0C;&#x5F53;&#x5728;&#x81EA;&#x8EAB;&#x627E;&#x4E0D;&#x5230;&#x65F6;&#xFF0C;&#x4F1A;&#x6CBF;&#x7740;&#x539F;&#x578B;&#x94FE;&#x5F80;&#x4E0A;&#x627E;&#x3002;</p>
+<pre class="language-"><code>function Person(){
+    this.name = &apos;&#x90B5;&#x5A01;&#x5112;&apos;
+    this.pets = [&apos;&#x65FA;&#x8D22;&apos;,&apos;&#x5C0F;&#x9EC4;&apos;]
+}
+Person.prototype.eat = function(){
+    console.log(&apos;&#x5403;&#x996D;&apos;)
+}
+function Student(){
+    this.num = &quot;030578000&quot;
+}
+// * new&#x4E00;&#x4E2A;Person&#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x540C;&#x65F6;&#x62E5;&#x6709;&#x5176;&#x5B9E;&#x4F8B;&#x5C5E;&#x6027;&#x65B9;&#x6CD5;&#x548C;&#x539F;&#x578B;&#x5C5E;&#x6027;&#x65B9;&#x6CD5;
+let p = new Person()
+// * &#x628A;Student&#x7684;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x6307;&#x5411;&#x5B9E;&#x4F8B;p
+Student.prototype = p
+// * &#x628A;Student&#x7684;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x7684;constructor&#x6307;&#x5411;Student&#xFF0C;&#x89E3;&#x51B3;&#x7C7B;&#x578B;&#x5224;&#x65AD;&#x95EE;&#x9898;
+Student.prototype.constructor = Student
+let student = new Student()
+console.log(student.num) // &apos;030578000&apos;
+console.log(student.name) // * &apos;&#x90B5;&#x5A01;&#x5112;&apos;
+console.log(student.pets) // * &apos;[ &apos;&#x65FA;&#x8D22;&apos;, &apos;&#x5C0F;&#x9EC4;&apos; ]&apos;
+student.eat() // &apos;&#x5403;&#x996D;&apos;
+</code></pre><p>&#x6B64;&#x65F6;&#x5173;&#x7CFB;&#x56FE;&#x4E3A;</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/8667801-b4fccd03ea45270a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<h3 id="25-&#x7EC4;&#x5408;&#x7EE7;&#x627F;"><a name="25-&#x7EC4;&#x5408;&#x7EE7;&#x627F;" class="anchor-navigation-ex-anchor" href="#25-&#x7EC4;&#x5408;&#x7EE7;&#x627F;"><i class="fa fa-link" aria-hidden="true"></i></a>2.5 &#x7EC4;&#x5408;&#x7EE7;&#x627F;</h3>
+<p>&#x5229;&#x7528;&#x6784;&#x9020;&#x7EE7;&#x627F;&#x548C;&#x539F;&#x578B;&#x94FE;&#x7EC4;&#x5408;</p>
+<pre class="language-"><code>function Person(name,pets){ // * &#x7236;&#x6784;&#x9020;&#x51FD;&#x6570;&#x63A5;&#x6536;name&#xFF0C;pets&#x53C2;&#x6570;
+    this.name = name // * &#x8D4B;&#x503C;&#x5230;this&#x4E0A;
+    this.pets = pets // * &#x8D4B;&#x503C;&#x5230;this&#x4E0A;
+}
+Person.prototype.eat = function(){
+    console.log(&apos;&#x5403;&#x996D;&apos;)
+}
+function Student(num,name,pets){ // * &#x5728;&#x5B50;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4E2D;&#x4E5F;&#x63A5;&#x6536;&#x53C2;&#x6570;
+    Person.call(this,name,pets) // * &#x5728;&#x8FD9;&#x91CC;&#x628A;name&#x548C;pets&#x4F20;&#x53C2;&#x6570;
+    this.num = num // * &#x8D4B;&#x503C;&#x5230;this&#x4E0A;
+}
+let p = new Person()
+Student.prototype = p
+Student.prototype.constructor = Student
+let student = new Student(&quot;030578000&quot;,&quot;&#x90B5;&#x5A01;&#x5112;&quot;,[&quot;&#x65FA;&#x8D22;&quot;,&quot;&#x5C0F;&#x9EC4;&quot;])
+let student2 = new Student(&quot;030578001&quot;,&quot;iamswr&quot;,[&quot;&#x5C0F;&#x7EA2;&quot;])
+console.log(student.num) // &apos;030578000&apos;
+console.log(student.name) // &apos;&#x90B5;&#x5A01;&#x5112;&apos;
+console.log(student.pets) // &apos;[ &apos;&#x65FA;&#x8D22;&apos;, &apos;&#x5C0F;&#x9EC4;&apos; ]&apos;
+student.eat() // &apos;&#x5403;&#x996D;&apos;
+student.pets.push(&apos;&#x5C0F;&#x7EA2;&apos;)
+console.log(student.pets) // * [ &apos;&#x65FA;&#x8D22;&apos;, &apos;&#x5C0F;&#x9EC4;&apos;, &apos;&#x5C0F;&#x7EA2;&apos; ]
+console.log(student2.pets) // * [ &apos;&#x5C0F;&#x7EA2;&apos; ]
+</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/8667801-cd32123f1d1c1384.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>&#x8FD9;&#x6837;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x5728;&#x5B50;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4E2D;&#x7ED9;&#x7236;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4F20;&#x53C2;&#x4E86;&#xFF0C;&#x800C;&#x4E14;&#x6211;&#x4EEC;&#x4E5F;&#x53D1;&#x73B0;&#x4E0A;&#x56FE;&#x4E2D;&#xFF0C;2&#x4E2A;&#x7EA2;&#x5708;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x4EE3;&#x7801;&#x662F;&#x91CD;&#x590D;&#x4E86;&#xFF0C;&#x90A3;&#x4E48;&#x63A5;&#x4E0B;&#x6765;&#x6211;&#x4EEC;&#x600E;&#x4E48;&#x89E3;&#x51B3;&#x5462;&#xFF1F;</p>
+<p>&#x80FD;&#x5426;&#x5728;&#x5B50;&#x6784;&#x9020;&#x51FD;&#x6570;&#x8BBE;&#x7F6E;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x53EA;&#x8981;&#x7236;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7684;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x5C5E;&#x6027;&#x65B9;&#x6CD5;&#x5462;&#xFF1F;</p>
+<p>&#x5F53;&#x7136;&#x662F;&#x53EF;&#x4EE5;&#x7684;&#xFF0C;&#x63A5;&#x4E0B;&#x6765;&#x6211;&#x4EEC;&#x8BB2;&#x5BC4;&#x751F;&#x5F0F;&#x7EC4;&#x5408;&#x7EE7;&#x627F;&#xFF0C;&#x4E5F;&#x662F;&#x76EE;&#x524D;&#x7A0B;&#x5E8F;&#x733F;&#x8BA4;&#x4E3A;&#x89E3;&#x51B3;&#x7EE7;&#x627F;&#x95EE;&#x9898;&#x6700;&#x597D;&#x7684;&#x65B9;&#x6848;</p>
+<h3 id="26-&#x5BC4;&#x751F;&#x5F0F;&#x7EC4;&#x5408;&#x7EE7;&#x627F;"><a name="26-&#x5BC4;&#x751F;&#x5F0F;&#x7EC4;&#x5408;&#x7EE7;&#x627F;" class="anchor-navigation-ex-anchor" href="#26-&#x5BC4;&#x751F;&#x5F0F;&#x7EC4;&#x5408;&#x7EE7;&#x627F;"><i class="fa fa-link" aria-hidden="true"></i></a>2.6 &#x5BC4;&#x751F;&#x5F0F;&#x7EC4;&#x5408;&#x7EE7;&#x627F;</h3>
+<pre class="language-"><code>function Person(name,pets){
+    this.name = name
+    this.pets = pets
+}
+Person.prototype.eat = function(){
+    console.log(&apos;&#x5403;&#x996D;&apos;)
+}
+function Student(num,name,pets){
+    Person.call(this,name,pets)
+    this.num = num
+}
+// * &#x5BC4;&#x751F;&#x5F0F;&#x7EE7;&#x627F;
+function Temp(){} // * &#x58F0;&#x660E;&#x4E00;&#x4E2A;&#x7A7A;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF0C;&#x7528;&#x4E8E;&#x6865;&#x6881;&#x4F5C;&#x7528;
+Temp.prototype = Person.prototype // * &#x628A;Temp&#x6784;&#x9020;&#x51FD;&#x6570;&#x7684;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x6307;&#x5411;Person&#x7684;&#x539F;&#x578B;&#x5BF9;&#x8C61;
+let temp = new Temp() // * &#x7528;&#x6784;&#x9020;&#x51FD;&#x6570;Temp&#x5B9E;&#x4F8B;&#x5316;&#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;temp
+Student.prototype = temp // * &#x628A;&#x5B50;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7684;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x6307;&#x5411;temp
+temp.constructor = Student // * &#x628A;temp&#x7684;constructor&#x6307;&#x5411;Student&#x6216;&#x8005;&#x6539;&#x6210;Student.prototype.constructor =Student
+let student1 = new Student(&apos;030578001&apos;,&apos;&#x90B5;&#x5A01;&#x5112;&apos;,[&apos;&#x65FA;&#x8D22;&apos;,&apos;&#x5C0F;&#x9EC4;&apos;])
+console.log(student1) // Student { name: &apos;&#x90B5;&#x5A01;&#x5112;&apos;, pets: [ &apos;&#x65FA;&#x8D22;&apos;, &apos;&#x5C0F;&#x9EC4;&apos; ],num: &apos;030578001&apos; }
+let student2 = new Student(&apos;030578002&apos;,&apos;iamswr&apos;,[&apos;&#x5C0F;&#x7EA2;&apos;])
+console.log(student2) // Student { name: &apos;iamswr&apos;, pets: [ &apos;&#x5C0F;&#x7EA2;&apos; ],num: &apos;030578002&apos; }
+</code></pre><p>&#x81F3;&#x6B64;&#x4E3A;&#x6B62;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x5B8C;&#x6210;&#x4E86;&#x5BC4;&#x751F;&#x5F0F;&#x7EC4;&#x5408;&#x7EE7;&#x627F;&#x4E86;&#xFF0C;&#x4E3B;&#x8981;&#x903B;&#x8F91;&#x5C31;&#x662F;&#x7528;&#x4E00;&#x4E2A;&#x7A7A;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF0C;&#x6765;&#x5F53;&#x505A;&#x6865;&#x6881;&#xFF0C;&#x5E76;&#x4E14;&#x628A;&#x5176;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x6307;&#x5411;&#x7236;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7684;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#xFF0C;&#x5E76;&#x4E14;&#x5B9E;&#x4F8B;&#x5316;&#x4E00;&#x4E2A;temp&#xFF0C;temp&#x4F1A;&#x6CBF;&#x7740;&#x8FD9;&#x4E2A;&#x539F;&#x578B;&#x94FE;&#xFF0C;&#x53BB;&#x627E;&#x5230;&#x7236;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7684;&#x539F;&#x578B;&#x5BF9;&#x8C61;</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/8667801-653e4f7030928337.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<h3 id="27-class&#x7EE7;&#x627F;"><a name="27-class&#x7EE7;&#x627F;" class="anchor-navigation-ex-anchor" href="#27-class&#x7EE7;&#x627F;"><i class="fa fa-link" aria-hidden="true"></i></a>2.7 Class&#x7EE7;&#x627F;</h3>
+<p>Class &#x53EF;&#x4EE5;&#x901A;&#x8FC7; extends &#x5173;&#x952E;&#x5B57;&#x5B9E;&#x73B0;&#x7EE7;&#x627F;&#xFF0C;&#x8FD9;&#x6BD4; ES5 &#x7684;&#x901A;&#x8FC7;&#x4FEE;&#x6539;&#x539F;&#x578B;&#x94FE;&#x5B9E;&#x73B0;&#x7EE7;&#x627F;&#xFF0C;&#x8981;&#x6E05;&#x6670;&#x548C;&#x65B9;&#x4FBF;&#x5F88;&#x591A;&#x3002;</p>
+<pre class="language-"><code>class staff { 
+  constructor(){
+    this.company = &quot;ABC&quot;;    
+    this.test = [1,2,3];
+  }
+  companyName(){
+    return this.company; 
+  }
+}
+class employee extends staff {
+  constructor(name,profession){
+    super();
+    this.employeeName = name;
+    this.profession = profession;
+  }
+}
+
+// &#x5C06;&#x7236;&#x7C7B;&#x539F;&#x578B;&#x6307;&#x5411;&#x5B50;&#x7C7B;
+let instanceOne = new employee(&quot;Andy&quot;, &quot;A&quot;);
+let instanceTwo = new employee(&quot;Rose&quot;, &quot;B&quot;);
+instanceOne.test.push(4);
+// &#x6D4B;&#x8BD5; 
+console.log(instanceTwo.test);    // [1,2,3]
+console.log(instanceOne.companyName()); // ABC
+// &#x901A;&#x8FC7; Object.getPrototypeOf() &#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x4ECE;&#x5B50;&#x7C7B;&#x4E0A;&#x83B7;&#x53D6;&#x7236;&#x7C7B;
+console.log(Object.getPrototypeOf(employee) === staff)
+// &#x901A;&#x8FC7; hasOwnProperty() &#x65B9;&#x6CD5;&#x6765;&#x786E;&#x5B9A;&#x81EA;&#x8EAB;&#x5C5E;&#x6027;&#x4E0E;&#x5176;&#x539F;&#x578B;&#x5C5E;&#x6027;
+console.log(instanceOne.hasOwnProperty(&apos;test&apos;))          // true
+// &#x901A;&#x8FC7; isPrototypeOf() &#x65B9;&#x6CD5;&#x6765;&#x786E;&#x5B9A;&#x539F;&#x578B;&#x548C;&#x5B9E;&#x4F8B;&#x7684;&#x5173;&#x7CFB;
+console.log(staff.prototype.isPrototypeOf(instanceOne));    // true
+</code></pre><p>super &#x5173;&#x952E;&#x5B57;&#xFF0C;&#x5B83;&#x5728;&#x8FD9;&#x91CC;&#x8868;&#x793A;&#x7236;&#x7C7B;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF0C;&#x7528;&#x6765;&#x65B0;&#x5EFA;&#x7236;&#x7C7B;&#x7684; this &#x5BF9;&#x8C61;&#x3002;</p>
+<ol>
+<li>&#x5B50;&#x7C7B;&#x5FC5;&#x987B;&#x5728; <code>constructor</code> &#x65B9;&#x6CD5;&#x4E2D;&#x8C03;&#x7528; <code>super</code> &#x65B9;&#x6CD5;&#xFF0C;&#x5426;&#x5219;&#x65B0;&#x5EFA;&#x5B9E;&#x4F8B;&#x65F6;&#x4F1A;&#x62A5;&#x9519;&#x3002;&#x8FD9;&#x662F;&#x56E0;&#x4E3A;&#x5B50;&#x7C7B;&#x6CA1;&#x6709;&#x81EA;&#x5DF1;&#x7684; <code>this</code> &#x5BF9;&#x8C61;&#xFF0C;&#x800C;&#x662F;&#x7EE7;&#x627F;&#x7236;&#x7C7B;&#x7684; <code>this</code> &#x5BF9;&#x8C61;&#xFF0C;&#x7136;&#x540E;&#x5BF9;&#x5176;&#x8FDB;&#x884C;&#x52A0;&#x5DE5;&#x3002;</li>
+<li>&#x53EA;&#x6709;&#x8C03;&#x7528; <code>super</code> &#x4E4B;&#x540E;&#xFF0C;&#x624D;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; <code>this</code> &#x5173;&#x952E;&#x5B57;&#xFF0C;&#x5426;&#x5219;&#x4F1A;&#x62A5;&#x9519;&#x3002;&#x8FD9;&#x662F;&#x56E0;&#x4E3A;&#x5B50;&#x7C7B;&#x5B9E;&#x4F8B;&#x7684;&#x6784;&#x5EFA;&#xFF0C;&#x662F;&#x57FA;&#x4E8E;&#x5BF9;&#x7236;&#x7C7B;&#x5B9E;&#x4F8B;&#x52A0;&#x5DE5;&#xFF0C;&#x53EA;&#x6709; super &#x65B9;&#x6CD5;&#x624D;&#x80FD;&#x8FD4;&#x56DE;&#x7236;&#x7C7B;&#x5B9E;&#x4F8B;&#x3002;</li>
+</ol>
+<p><code>super</code> &#x867D;&#x7136;&#x4EE3;&#x8868;&#x4E86;&#x7236;&#x7C7B; <code>A</code> &#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF0C;&#x4F46;&#x662F;&#x8FD4;&#x56DE;&#x7684;&#x662F;&#x5B50;&#x7C7B; <code>B</code> &#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x5373;<code>super</code> &#x5185;&#x90E8;&#x7684; <code>this</code> &#x6307;&#x7684;&#x662F; <code>B</code>&#xFF0C;&#x56E0;&#x6B64; <code>super()</code> &#x5728;&#x8FD9;&#x91CC;&#x76F8;&#x5F53;&#x4E8E; <code>A.prototype.constructor.call(this)</code></p>
+<p><em>ES5 &#x548C; ES6 &#x5B9E;&#x73B0;&#x7EE7;&#x627F;&#x7684;&#x533A;&#x522B;</em></p>
+<ol>
+<li><code>ES5</code> &#x7684;&#x7EE7;&#x627F;&#xFF0C;&#x5B9E;&#x8D28;&#x662F;&#x5148;&#x521B;&#x9020;&#x5B50;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61; <code>this</code> &#xFF0C;&#x7136;&#x540E;&#x518D;&#x5C06;&#x7236;&#x7C7B;&#x7684;&#x65B9;&#x6CD5;&#x6DFB;&#x52A0;&#x5230; <code>this</code> &#x4E0A;&#x9762;&#xFF08;<code>Parent.apply(this)</code>&#xFF09;&#x3002;</li>
+<li><code>ES6</code> &#x7684;&#x7EE7;&#x627F;&#x673A;&#x5236;&#x5B8C;&#x5168;&#x4E0D;&#x540C;&#xFF0C;&#x5B9E;&#x8D28;&#x662F;&#x5148;&#x521B;&#x9020;&#x7236;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61; <code>this</code> &#xFF08;&#x6240;&#x4EE5;&#x5FC5;&#x987B;&#x5148;&#x8C03;&#x7528; <code>super()</code> &#x65B9;&#x6CD5;&#xFF09;&#xFF0C;&#x7136;&#x540E;&#x518D;&#x7528;&#x5B50;&#x7C7B;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4FEE;&#x6539; this&#x3002;</li>
+</ol>
+<h3 id="28-&#x6DF1;&#x62F7;&#x8D1D;&#x7EE7;&#x627F;"><a name="28-&#x6DF1;&#x62F7;&#x8D1D;&#x7EE7;&#x627F;" class="anchor-navigation-ex-anchor" href="#28-&#x6DF1;&#x62F7;&#x8D1D;&#x7EE7;&#x627F;"><i class="fa fa-link" aria-hidden="true"></i></a>2.8 &#x6DF1;&#x62F7;&#x8D1D;&#x7EE7;&#x627F;</h3>
+<p>// &#x65B9;&#x6CD5;&#x4E00;&#xFF1A;&#x5229;&#x7528;JSON.stringify&#x548C;JSON.parse</p>
+<p>// &#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x8FDB;&#x884C;&#x6DF1;&#x62F7;&#x8D1D;&#xFF0C;&#x53EA;&#x9488;&#x5BF9;json&#x6570;&#x636E;&#x8FD9;&#x6837;&#x7684;&#x952E;&#x503C;&#x5BF9;&#x6709;&#x6548;</p>
+<p>// &#x5BF9;&#x4E8E;&#x51FD;&#x6570;&#x7B49;&#x7B49;&#x53CD;&#x800C;&#x65E0;&#x6548;&#xFF0C;&#x4E0D;&#x597D;&#x7528;&#xFF0C;&#x63A5;&#x7740;&#x7EE7;&#x7EED;&#x770B;&#x65B9;&#x6CD5;&#x4E8C;&#x3001;&#x4E09;&#x3002;</p>
+<p>// &#x65B9;&#x6CD5;&#x4E8C;&#xFF1A;</p>
+<pre class="language-"><code>function deepCopy(fromObj,toObj) { // &#x6DF1;&#x62F7;&#x8D1D;&#x51FD;&#x6570;
+
+  // &#x5BB9;&#x9519;
+  if(fromObj === null) return null // &#x5F53;fromObj&#x4E3A;null
+  if(fromObj instanceof RegExp) return new RegExp(fromObj) // &#x5F53;fromObj&#x4E3A;&#x6B63;&#x5219;
+  if(fromObj instanceof Date) return new Date(fromObj) // &#x5F53;fromObj&#x4E3A;Date
+  toObj = toObj || {}
+  for(let key in fromObj){ // &#x904D;&#x5386;
+    if(typeof fromObj[key] !== &apos;object&apos;){ // &#x662F;&#x5426;&#x4E3A;&#x5BF9;&#x8C61;
+      toObj[key] = fromObj[key] // &#x5982;&#x679C;&#x4E3A;&#x539F;&#x59CB;&#x6570;&#x636E;&#x7C7B;&#x578B;&#xFF0C;&#x5219;&#x76F4;&#x63A5;&#x8D4B;&#x503C;
+    }else{
+      toObj[key] = new fromObj[key].constructor // &#x5982;&#x679C;&#x4E3A;object&#xFF0C;&#x5219;new&#x8FD9;&#x4E2A;object&#x6307;&#x5411;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;
+      deepCopy(fromObj[key],toObj[key]) // &#x9012;&#x5F52;
+    }
+  }
+  return toObj
+}
+let dog = {
+  name:&quot;&#x5C0F;&#x767D;&quot;,
+  sex:&quot;&#x516C;&quot;,
+  firends:[
+    {
+      name:&quot;&#x5C0F;&#x9EC4;&quot;,
+      sex:&quot;&#x6BCD;&quot;
+    }
+  ]
+}
+let dogcopy = deepCopy(dog)
+// &#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x628A;dog&#x7684;&#x5C5E;&#x6027;&#x8FDB;&#x884C;&#x4FEE;&#x6539;
+dog.firends[0].sex = &apos;&#x516C;&apos;
+console.log(dog) // { name: &apos;&#x5C0F;&#x767D;&apos;, sex: &apos;&#x516C;&apos;, firends: [ { name: &apos;&#x5C0F;&#x9EC4;&apos;, sex: &apos;&#x516C;&apos; }] }
+// &#x5F53;&#x6211;&#x4EEC;&#x6253;&#x5370;dogcopy&#xFF0C;&#x4F1A;&#x53D1;&#x73B0;dogcopy&#x4E0D;&#x4F1A;&#x53D7;dog&#x7684;&#x5F71;&#x54CD;
+console.log(dogcopy) // { name: &apos;&#x5C0F;&#x767D;&apos;,sex: &apos;&#x516C;&apos;,firends: [ { name: &apos;&#x5C0F;&#x9EC4;&apos;, sex: &apos;&#x6BCD;&apos; } ] }
+</code></pre><footer class="page-footer"><span class="copyright">Copyright &#xA9; webMrYang.top 2019 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2019-08-10 16:00:51
+</span></footer></body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Create.html" class="navigation navigation-prev " aria-label="Previous page: 创建">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Instance.html" class="navigation navigation-next " aria-label="Next page: 构造函数、原型对象实例">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"继承","level":"1.6.1.2","depth":3,"next":{"title":"构造函数、原型对象实例","level":"1.6.1.3","depth":3,"path":"gitbook/JavaScript-library/Object/Instance.md","ref":"gitbook/JavaScript-library/Object/Instance.md","articles":[]},"previous":{"title":"创建","level":"1.6.1.1","depth":3,"path":"gitbook/JavaScript-library/Object/Create.md","ref":"gitbook/JavaScript-library/Object/Create.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","copy-code-button","search-pro","-search","-lunr","expandable-chapters","splitter","-sharing","github-buttons","donate","tbfed-pagefooter","baidu-tongji","anchor-navigation-ex","simple-page-toc","livereload","sectionx","todo","include-codeblock","ace"],"styles":{"website":"./gitbook/gitbook-configure.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy webMrYang.top 2019","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-solarizedlight.css"],"lang":{"shell":"bash"}},"ace":{},"livereload":{},"baidu-tongji":{"url":"https://hm.baidu.com/hm.js","token":"f3f331c21843f7b950e103f51fbabc60"},"simple-page-toc":{},"todo":{},"splitter":{},"search-pro":{},"donate":{"title":"","button":"打赏","wechat":"https://github.com/WebMrYang/image/blob/master/wechat.png?raw=true","alipay":"https://github.com/WebMrYang/image/blob/master/alipay.png?raw=true","wechatText":"微信打赏","alipayText":"支付宝打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":true,"mode":"float","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"github-buttons":{"buttons":[{"user":"webMrYang","repo":"document-library","type":"star","count":true,"size":"small"},{"user":"webMrYang","width":"160","type":"follow","count":true,"size":"small"}]},"copy-code-button":{},"include-codeblock":{"check":false,"edit":false,"lang":"","fixlang":false,"template":"ace","theme":"monokai","unindent":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"杨","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"webMrYang的文档库","language":"zh-hans","gitbook":"*","description":"前端一些资料"},"file":{"path":"gitbook/JavaScript-library/Object/Inherit.md","mtime":"2019-08-10T08:00:51.774Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-18T08:31:02.139Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook.js"></script>
+    <script src="../../theme.js"></script>
+    
+        
+        <script src="../../gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook-plugin-baidu-tongji/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../../gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
